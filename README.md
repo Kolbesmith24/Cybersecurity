@@ -1,26 +1,26 @@
-# 🛡️ Cybersecurity Notes
+# Cybersecurity Notes
 
 Welcome to my personal cybersecurity notes repository!  
 This repo documents everything I'm learning on my journey to becoming a penetration tester — from certifications and CTFs to tools, attack techniques, and red team methodologies.
 
 
-## 📚 Table of Contents
+## Table of Contents
 ---
 
-### 🎓 Certifications
+### Certifications
 - [Security+](./Certifications/Security+/)
 - [OSCP](./Certifications/OSCP/)
 
 ---
 
-### 🎯 CTFs & Practice
+### CTFs & Practice
 - [picoCTF](./CTFs/picoCTF/)
 - [Hack The Box](./CTFs/HackTheBox/)
 - [TryHackMe](./CTFs/TryHackMe/)
 
 ---
 
-### 🛠️ Tools & Commands
+### Tools & Commands
 - [Linux Basics](./Tools_Commands/Linux/linux_basics.md)
 - [Nmap – Reference Sheet](./Tools_Commands/Nmap/nmap_cheatsheet.md)
 - [Nmap – Protocols & Server Ports](./Tools_Commands/Nmap/nmap_ports.md)
@@ -40,7 +40,7 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ---
 
-### 🌐 Web Exploitation
+### Web Exploitation
 - [SQL Injection](./Web_Exploitation/SQLi/sql_injection.md)
   - [Cheat Sheet](./Web_Exploitation/SQLi/sql_cheatsheet.md)
   - [Injection Methods](./Web_Exploitation/SQLi/sql_methods.md)
@@ -55,37 +55,37 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ---
 
-### 🏢 Active Directory
+### Active Directory
 - [LDAP Basics](./Active_Directory/LDAP/ldap_basics.md)
 - [Kerberos Attacks](./Active_Directory/Kerberos/kerberos_attacks.md)
 - [BloodHound](./Active_Directory/BloodHound/bloodhound.md)
 
 ---
 
-### 🔍 Reconnaissance
+### Reconnaissance
 - [System Enumeration](./Reconnaissance/System/system_enum.md)
 - [Terminal Reconnaissance](./Reconnaissance/Terminal/terminal_recon.md)
 
 ---
 
-### ⬆️ Privilege Escalation
+### Privilege Escalation
 - [Linux Privilege Escalation](./Privilege_Escalation/Linux/linux_privesc.md)
 - [Windows Privilege Escalation](./Privilege_Escalation/Windows/windows_privesc.md)
 
 ---
 
-### 🧪 Reverse Engineering
+### Reverse Engineering
 - [Ghidra](./Reverse_Engineering/Ghidra/ghidra.md)
 - [GDB](./Reverse_Engineering/GDB.md)
 
 ---
 
-### 🧬 Steganography
+### Steganography
 - [StegOnline](./Steganography/StegOnline/stegonline.md)
 
 ---
 
-### 🧰 Templates
+### Templates
 - [Machine Writeup Template](./Notes_Templates/machine_writeup_template.md)
 - [Vuln Walkthrough Template](./Notes_Templates/vuln_walkthrough_template.md)
 > 💬 This repo is a living document — constantly updated as I learn and grow.
