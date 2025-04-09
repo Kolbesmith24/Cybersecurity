@@ -21,9 +21,7 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 ---
 
 ### Tools & Commands
-- [Linux Basics](./Tools_Commands/Linux/linux_basics.md)
 - [Nmap – Reference Sheet](./Tools_Commands/Nmap/nmap_cheatsheet.md)
-- [Nmap – Protocols & Server Ports](./Tools_Commands/Nmap/nmap_ports.md)
 - [Burp Suite](./Tools_Commands/BurpSuite/burp_suite.md)
 - [Hydra](./Tools_Commands/Hydra/hydra.md)
 - [Gobuster](./Tools_Commands/Gobuster/gobuster.md)
