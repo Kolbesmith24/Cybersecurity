@@ -1,4 +1,4 @@
-🔎 Burp Suite Notes
+# Burp Suite Notes
 
 Burp Suite is a comprehensive tool used for web application security testing. This reference provides a breakdown of its core modules and usage, tailored for penetration testers and bug bounty hunters.
 # Core Modules
