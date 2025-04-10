@@ -42,8 +42,8 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 ### Web Exploitation
 - [CSRF](./Web%20Exploitation/CSRF/csrf.md)
 - [File Upload Vulnerabilities](./Web%20Exploitation/File%20Uploads/)
-  - [File Upload Cheatsheet](./Web%20Exploitation/File%20Uploads/file%20upload%cheatsheet.md)
-  - [File Upload Types](./Web%20Exploitation/File%20Uploads/file%20upload%types.md)
+  - [File Upload Cheatsheet](./Web%20Exploitation/File%20Uploads/file%20upload%20cheatsheet.md)
+  - [File Upload Types](./Web%20Exploitation/File%20Uploads/file%20upload%20types.md)
 - [IDOR](./Web%20Exploitation/IDOR/idor.md)
 - [SQL Injection](./Web%20Exploitation/SQLi/injection%20methods.md)
   - [Cheat Sheet](./Web%20Exploitation/SQLi/cheat%20sheet.md)
@@ -64,8 +64,8 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 ---
 
 ### Reconnaissance
-- [System Enumeration](./Reconnaissance/System/system_enumeration.md)
-- [Terminal Reconnaissance](./Reconnaissance/Terminal/terminal_reconnaissance.md)
+- [System Enumeration](./Reconnaissance/System/system%20enumeration.md)
+- [Terminal Reconnaissance](./Reconnaissance/Terminal/terminal%20reconnaissance.md)
 
 ---
 
