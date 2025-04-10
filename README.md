@@ -54,10 +54,10 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ---
 
-### Active Directory
+<!-- ### Active Directory (TBD)
 - [LDAP Basics](./Active%20Directory/LDAP/ldap_basics.md)
 - [Kerberos Attacks](./Active%20Directory/Kerberos/kerberos_attacks.md)
-- [BloodHound](./Active%20Directory/BloodHound/bloodhound.md)
+- [BloodHound](./Active%20Directory/BloodHound/bloodhound.md) -->
 
 ---
 
@@ -87,4 +87,5 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 ### Writeups
 - [Machine Writeup Template](./Writeups/machine_writeup_template.md)
 - [Vuln Walkthrough Template](./Writeups/vuln_walkthrough_template.md)
-> 💬 This repo is a living document — constantly updated as I learn and grow.
+
+> This repo is a living document — constantly updated as I learn and grow.
