@@ -33,9 +33,9 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 - [GDB](./Tools%20&%20Commands/GDB/gdb.md)
 - [Docker – Starting Files](./Tools%20&%20Commands/Docker/docker.md)
 - [Metasploit – Overview](./Tools%20&%20Commands/Metasploit/metasploit%20overview.md)
-- [Metasploit – Exploitation](./Tools%20&%20Commands/Metasploit/metasploit%20exploitation.md)
-- [Metasploit – Meterpreter](./Tools%20&%20Commands/Metasploit/meterpreter.md)
-- [Metasploit – Msfvenom](./Tools%20&%20Commands/Metasploit/msfvenom.md)
+  - [Metasploit – Exploitation](./Tools%20&%20Commands/Metasploit/metasploit%20exploitation.md)
+  - [Metasploit – Meterpreter](./Tools%20&%20Commands/Metasploit/meterpreter.md)
+  - [Metasploit – Msfvenom](./Tools%20&%20Commands/Metasploit/msfvenom.md)
 
 ---
 
