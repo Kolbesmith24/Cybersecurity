@@ -10,7 +10,6 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 ### Certifications
 - [Security+](./Certifications/Security+/)
 - [OSCP](./Certifications/OSCP/)
-- [TEST](./CTFs%20&%20Practice/Hack%20The%20Box/Challenges)
 
 ---
 
