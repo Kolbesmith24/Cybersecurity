@@ -44,13 +44,15 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
   - [Cheat Sheet](./Web%20Exploitation/SQLi/sql%20cheatsheet.md)
   - [Injection Methods](./Web%20Exploitation/SQLi/sql%20methods.md)
   - [SQLmap](./Web%20Exploitation/SQLi/sqlmap.md)
-- [Cross-Site Scripting (XSS)](./Web%20Exploitation/XSS/xss.md)
+- [Cross-Site Scripting (XSS)](./Web%20Exploitation/XSS/xss%20overview.md)
+  - [Cross-Site Scripting (XSS)](./Web%20Exploitation/XSS/xss%20types.md)
 - [CSRF](./Web%20Exploitation/CSRF/csrf.md)
 - [IDOR](./Web%20Exploitation/IDOR/idor.md)
 - [SSTI (Server-Side Template Injection)](./Web%20Exploitation/SSTI/ssti.md)
-- [File Upload Vulnerabilities – Overview](./Web%20Exploitation/File_Uploads/file_uploads.md)
-  - [Cheat Sheet](./Web%20Exploitation/File_Uploads/file_upload_cheatsheet.md)
-- [Web Tools for Reconnaissance](./Web%20Exploitation/Web_Tools/web_recon_tools.md)
+- [File Upload Vulnerabilities – Overview](./Web%20Exploitation/File%20Uploads/file%20uploads.md)
+  - [Cheat Sheet](./Web%20Exploitation/File%20Uploads/file%20upload%20cheatsheet.md)
+- [Web Tools for Reconnaissance](./Web%20Exploitation/Web%20Tools/web%20recon%tools.md)
+- [Web Tools for Exploitation](./Web%20Exploitation/Web%20Tools/web%20exploitation%tools.md)
 
 ---
 
