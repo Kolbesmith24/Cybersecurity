@@ -40,7 +40,7 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 ---
 
 ### Web Exploitation
-- [SQL Injection](./Web%20Exploitation/SQLi/sql%20injection%20methods.md)
+- [SQL Injection](./Web%20Exploitation/SQLi/injection%20methods.md)
   - [Cheat Sheet](./Web%20Exploitation/SQLi/sql%20cheatsheet.md)
   - [SQLmap](./Web%20Exploitation/SQLi/sqlmap.md)
 - [Cross-Site Scripting (XSS)](./Web%20Exploitation/XSS/xss%20overview.md)
