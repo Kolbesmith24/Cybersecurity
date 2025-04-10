@@ -35,7 +35,3 @@ This command will:
 3. Filter the results based on a response length of 124 bytes, which is often indicative of a successful LFI vulnerability.
 
 ---
-
-## Conclusion
-
-Using FFUF for LFI testing can help security professionals quickly identify potential vulnerabilities in a web application. By leveraging custom wordlists and response length filtering, you can fine-tune your fuzzing process and improve the chances of uncovering LFI vulnerabilities.
