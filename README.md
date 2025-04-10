@@ -15,8 +15,7 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ### CTFs & Practice
 - [picoCTF](./CTFs%20&%20Practice/picoCTF/)
-- [Hack The Box](./CTFs%20&%20Practice/HackTheBox/)
-- [TryHackMe](./CTFs%20&%20Practice/TryHackMe/)
+- [BearcatCTF 2024](CTFs%20&%20Practice/BearcatCTF%202024/challenges.md)
 
 ---
 
