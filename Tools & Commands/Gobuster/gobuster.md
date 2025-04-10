@@ -34,7 +34,3 @@ gobuster dir -u https://mainwp.com/ -w /usr/share/wordlists/dirbuster/directory-
 - **`-b ""`**: Tells Gobuster to ignore certain status codes (e.g., blank to ignore any).
   
 ---
-
-## Conclusion
-
-Gobuster is a fast and efficient tool for discovering hidden files and directories on a web server. By using it with appropriate wordlists and extensions, security professionals can uncover vulnerabilities, misconfigurations, or sensitive data that may otherwise be overlooked.
