@@ -23,7 +23,7 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ### Tools & Commands
 - [Nmap – Reference Sheet](./Tools%20&%20Commands/Nmap/nmap%20cheatsheet.md)
-- [Burp Suite](./Tools%20&%20Commands/BurpSuite/burp%20suite.md)
+- [Burp Suite](./Tools%20&%20Commands/Burp%20Suite/burp%20suite.md)
 - [Hydra](./Tools%20&%20Commands/Hydra/hydra.md)
 - [Gobuster](./Tools%20&%20Commands/Gobuster/gobuster.md)
 - [FFUF](./Tools%20&%20Commands/FFUF/ffuf.md)
