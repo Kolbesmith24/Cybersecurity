@@ -1,4 +1,4 @@
-# Secure Shell (SSH) - A Comprehensive Guide
+# Secure Shell (SSH)
 
 **SSH** (Secure Shell) is a network protocol used to securely connect to a remote system over an unsecured network. It allows users to execute commands remotely, transfer files, and perform administrative tasks on remote machines. This guide covers the essentials of SSH, including connection methods, file transfers, and key-based authentication.
 
@@ -81,12 +81,4 @@ Example of copying an entire directory recursively:
 ```
 scp -r /local/directory username@IP_ADDRESS:/remote/directory/
 ```
-
 ---
-
-## Conclusion
-
-SSH is an essential tool for securely managing remote systems, executing commands, and transferring files. By leveraging its capabilities, system administrators and penetration testers can securely access and manage remote machines over the network.
-
-With features like encrypted communication, password-based and key-based authentication, and secure file transfer using SCP, SSH remains a foundational protocol for secure remote administration and system management.
-
