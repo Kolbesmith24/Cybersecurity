@@ -31,7 +31,7 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
   - [Metasploit – Exploitation](./Tools%20&%20Commands/Metasploit/metasploit%20exploitation.md)
   - [Metasploit – Meterpreter](./Tools%20&%20Commands/Metasploit/meterpreter.md)
   - [Metasploit – Msfvenom](./Tools%20&%20Commands/Metasploit/msfvenom.md)
-- [Netcat & Socat](./Tools%20&%20Commands/Netcat/netcat%20socat.md)
+- [Netcat & Socat](./Tools%20&%20Commands/Netcat%20&%20Socat/netcat%20socat.md)
 - [Nmap – Reference Sheet](./Tools%20&%20Commands/Nmap/nmap%20cheatsheet.md)
 - [SSH (Secure Shell)](./Tools%20&%20Commands/SSH/ssh.md)
 - [StegOnline](./Tools%20&%20Commands/Steganography/steganography%20checklist.md)
@@ -41,10 +41,12 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ### Web Exploitation
 - [CSRF](./Web%20Exploitation/CSRF/csrf.md)
-- [File Upload Vulnerabilities – Overview](./Web%20Exploitation/File%20Uploads/file%20uploads.md)
+- [File Upload Vulnerabilities](./Web%20Exploitation/File%20Uploads/)
+  - [File Upload Cheatsheet](./Web%20Exploitation/File%20Uploads/file%20upload%cheatsheet.md)
+  - [File Upload Types](./Web%20Exploitation/File%20Uploads/file%20upload%types.md)
 - [IDOR](./Web%20Exploitation/IDOR/idor.md)
 - [SQL Injection](./Web%20Exploitation/SQLi/injection%20methods.md)
-  - [Cheat Sheet](./Web%20Exploitation/SQLi/sql%20cheatsheet.md)
+  - [Cheat Sheet](./Web%20Exploitation/SQLi/cheat%20sheet.md)
   - [SQLmap](./Web%20Exploitation/SQLi/sqlmap.md)
 - [SSTI (Server-Side Template Injection)](./Web%20Exploitation/SSTI/ssti.md)
 - [Web Tools for Exploitation](./Web%20Exploitation/Web%20Tools/web%20exploitation%tools.md)
@@ -62,21 +64,21 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 ---
 
 ### Reconnaissance
-- [System Enumeration](./Reconnaissance/System/system_enum.md)
-- [Terminal Reconnaissance](./Reconnaissance/Terminal/terminal_recon.md)
+- [System Enumeration](./Reconnaissance/System/system_enumeration.md)
+- [Terminal Reconnaissance](./Reconnaissance/Terminal/terminal_reconnaissance.md)
 
 ---
 
 ### Privilege Escalation
-- [Linux Privilege Escalation](./Privilege%20Escalation/Linux/linux_privesc.md)
-- [Windows Privilege Escalation](./Privilege%20Escalation/Windows/windows_privesc.md)
+- [Linux Privilege Escalation](./Privilege%20Escalation/Linux/linux%20privesc.md)
+- [Windows Privilege Escalation](./Privilege%20Escalation/Windows/windows%20privesc.md)
 
 ---
 
 ### Writeups
 #### Hack The Box
-- [Hack The Box Challenges](./Writeups/Writeups/Hack%20The%20Box/Challenges/)
-- [Hack The Box Machines](./Writeups/Writeups/Hack%20The%20Box/Machines/)
+- [Hack The Box Challenges](./Writeups/Hack%20The%20Box/Challenges/)
+- [Hack The Box Machines](./Writeups/Hack%20The%20Box/Machines/)
 #### TryHackMe
 - [TryHackMe Account](./Writeups/TryHackMe/my%20account.md)
 - [TryHackMe Challenges](./Writeups/TryHackMe/Challenges/)
