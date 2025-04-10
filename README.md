@@ -15,7 +15,7 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ### CTF Competitions
 - [picoCTF](./CTF%20Competitions/picoCTF/)
-- [BearcatCTF 2024](./CTF%20Competitions/BearcatCTF%202024/challenges/)
+- [BearcatCTF 2024](./CTF%20Competitions/BearcatCTF%202024/challenges.md)
 
 ---
 
