@@ -21,6 +21,7 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ### Tools & Commands
 - [Burp Suite](./Tools%20&%20Commands/Burp%20Suite/burp%20suite.md)
+- [Curl](./Tools%20&%20Commands/Curl/curl.md)
 - [Docker – Starting Files](./Tools%20&%20Commands/Docker/docker.md)
 - [FFUF](./Tools%20&%20Commands/FFUF/ffuf.md)
 - [GDB](./Tools%20&%20Commands/GDB/gdb.md)
