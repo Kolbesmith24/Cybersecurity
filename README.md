@@ -49,7 +49,7 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
   - [Cheat Sheet](./Web%20Exploitation/SQLi/cheat%20sheet.md)
   - [SQLmap](./Web%20Exploitation/SQLi/sqlmap.md)
 - [SSTI (Server-Side Template Injection)](./Web%20Exploitation/SSTI/)
-  - [SSTI](./Web%20Exploitation/SSTI/ssti.md)
+  - [SSTI Overview](./Web%20Exploitation/SSTI/ssti.md)
   - [SSTI Cheatsheet](./Web%20Exploitation/SSTI/ssti_cheatsheet.md)
 - [Web Tools for Exploitation](./Web%20Exploitation/Web%20Tools/web%20exploitation%20tools.md)
 - [Web Tools for Reconnaissance](./Web%20Exploitation/Web%20Tools/web%20recon%20tools.md)
