@@ -9,7 +9,7 @@
 Quipqiup is **web-based** — no installation required.
 
 ### Website
-👉 [https://quipqiup.com/](https://quipqiup.com/)
+- [https://quipqiup.com/](https://quipqiup.com/)
 
 ---
 
