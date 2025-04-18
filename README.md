@@ -38,7 +38,7 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 - [Nmap – Reference Sheet](./Tools%20&%20Commands/Nmap/nmap%20cheatsheet.md)
 - [PdfToText](./Tools%20&%20Commands/Pdftotext/pdftotext.md)
 - [Quipqiup](./Tools%20&%20Commands/Quipqiup/quipqiup.md)
-- [Sleuthkit & Autopsy)](./Tools%20&%20Commands/Sleuthkit/sleuthkit.md)
+- [Sleuthkit & Autopsy](./Tools%20&%20Commands/Sleuthkit/sleuthkit.md)
 - [SSH (Secure Shell)](./Tools%20&%20Commands/SSH/ssh.md)
 - [Steganography](./Tools%20&%20Commands/Steganography/steganography%20checklist.md)
   - [StegOnline](./Tools%20&%20Commands/Steganography/stegsnow_steghide.md)
