@@ -13,9 +13,19 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ---
 
-### CTF Competitions
+### Writeups
+#### Hack The Box
+- [Hack The Box Challenges](./Writeups/Hack%20The%20Box/Challenges/)
+- [Hack The Box Machines](./Writeups/Hack%20The%20Box/Machines/)
+
+#### TryHackMe
+- [TryHackMe Account](./Writeups/TryHackMe/my%20account.md)
+- [TryHackMe Challenges](./Writeups/TryHackMe/Challenges/)
+
+#### CTF Competitions
 - [picoCTF](./CTF%20Competitions/picoCTF/)
 - [BearcatCTF 2024](./CTF%20Competitions/BearcatCTF%202024/challenges.md)
+
 
 ---
 
@@ -85,13 +95,5 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 - [Windows Privilege Escalation](./Privilege%20Escalation/Windows/windows%20privesc.md)
 
 ---
-
-### Writeups
-#### Hack The Box
-- [Hack The Box Challenges](./Writeups/Hack%20The%20Box/Challenges/)
-- [Hack The Box Machines](./Writeups/Hack%20The%20Box/Machines/)
-#### TryHackMe
-- [TryHackMe Account](./Writeups/TryHackMe/my%20account.md)
-- [TryHackMe Challenges](./Writeups/TryHackMe/Challenges/)
 
 > This repo is a living document — constantly updated as I learn and grow.
