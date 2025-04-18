@@ -1,277 +1,246 @@
-### Virtualization & Cloud Security
+# Cybersecurity Notes
 
-#### VM Escape Attacks
-- **VM escape**: Attackers attempt to break out of virtual machines (VMs) to access the host system or other VMs.
-    
+## Virtualization and Cloud Security
 
-#### VM Sprawl
-- **VM Sprawl**: Unused and abandoned servers on the network that may not be properly maintained.
-    
+### VM Escape Attack
+- Attackers attempt to break out of virtual machines (VMs) to access the host system or other VMs.
 
-#### Virtualization Technologies
-- **VDI (Virtual Desktop Infrastructure)**: Provides network-based access to a desktop computing environment.
-    
-- **Application Virtualization**: Access applications running in different environments from your systems.
-    
-- **Block Storage**: Allocates large chunks of storage partitioned into volumes, more expensive as you pay for all storage on the drive.
-    
+### VM Sprawl
+- Unused and abandoned servers on the network that may not be properly maintained.
+
+### Virtual Desktop Infrastructure (VDI)
+- Provides network-based access to a desktop computing environment.
+
+### Application Virtualization
+- Allows access to applications running in different environments from your systems.
+
+### Cloud Storage Options
+- **Block Storage**: Allocates large chunks of storage partitioned into volumes; more expensive as you pay for all storage on the drive.
 - **Object Storage**: Stores files as individual objects, managed by cloud providers; less expensive as you pay only for the storage you use.
-    
 
-#### Cloud Storage Security
+### Key Implementations of Cloud Storage Security
+- Set permissions properly.
+- Use encryption for sensitive data.
+- Replicate data to multiple data centers for backup.
 
-- **Cloud Storage Security Implementations**:
-    
-    - Set permissions properly.
-        
-    - Use encryption for sensitive data.
-        
-    - Replicate data to multiple data centers for backup.
-        
+## Cloud Networking and Services
 
-#### Cloud Networking & Management
+### Virtual Private Cloud (VPC)
+- Different clouds for different classes of servers.
 
-- **VPC (Virtual Private Cloud)**: Different clouds for different classes of servers.
-    
-- **VPC Endpoints**: Securely connect VPCs to each other and other cloud-based services.
-    
-- **SDN (Software-Defined Networking)**: Automates cloud networking.
-    
-- **SDV (Software-Defined Visibility)**: Uses the provider's API to gain visibility into cloud network traffic.
-    
-- **Cloud Orchestration**: Automates cloud management workflows.
-    
-- **Infrastructure as Code**: Write code for managing resources instead of using command lines.
-    
+### VPC Endpoints
+- Secure connections that allow resources inside your cloud network (VPC) to connect to other services (e.g., AWS S3, DynamoDB) without using the public internet.
 
----
+### Software-Defined Networking (SDN)
+- Separates network control from hardware, allowing administrators to manage the entire network through software.
 
-### Cloud Computing Models & Services
+### Software-Defined Visibility (SDV)
+- A method of monitoring cloud network traffic using cloud provider APIs, enabling visibility into data flow without physical access to hardware.
 
-#### Cloud Database Options
+### Cloud Orchestration
+- Automated management of cloud resources like servers, storage, and applications.
 
-- **Build Databases on Virtualized Servers**: Burden is on the customer.
-    
+### Infrastructure as Code
+- Write code for managing resources instead of using command lines.
+
+## Cloud Database Models
+
+### Cloud Database Options
+- **Build Databases on Virtualized Servers**: Customer is responsible for managing the database.
 - **Use Managed Database Services**: Cloud provider manages the database for the customer.
-    
-- **Cloud-Native Database Platforms**: Full management on the cloud.
-    
+- **Cloud-Native Database Platforms**: Full management of databases by the cloud provider.
 
-#### Cloud Service Models
-
-- **XaaS (Anything as a Service)**: Broad category that includes various cloud services.
-    
+### Cloud Service Models
+- **XaaS (Anything as a Service)**: Broad category including various cloud services.
 - **SaaS (Software as a Service)**: Customer purchases an entire application.
-    
 - **IaaS (Infrastructure as a Service)**: Customer purchases servers and storage.
-    
 - **PaaS (Platform as a Service)**: Customer purchases an app platform to run their own code/applications.
-    
-- **FaaS (Function as a Service)**: Users design functions that run on the provider’s platform.
-    
+- **FaaS (Function as a Service)**: Users design functions to run on the provider's platform.
 
-#### Cloud Security Models
-
+### Cloud Deployment Models
 - **Private Cloud**: The organization owns its infrastructure.
-    
-- **Public Cloud**: Resources are shared to manage cloud services.
-    
-- **Hybrid Cloud**: Uses both public and private clouds.
-    
-- **CCM (Cloud Controls Matrix)**: Outlines cloud security controls to meet objectives.
-    
-- **ISO Cloud Reference Architecture**: Framework defining cloud computing activities and responsibilities.
-    
-- **Governance in Cloud Operations**: Ensures effective oversight of cloud operations.
-    
-- **Audibility in Cloud Computing**: Allows customers to audit cloud providers’ security operations.
-    
-- **Regulatory Oversight in Cloud Computing**: Ensures compliance with regulations.
-    
-- **Data Sovereignty**: Local laws regarding data.
-    
+- **Public Cloud**: Resources are shared among users to manage cloud services.
+- **Hybrid Cloud**: A combination of public and private clouds.
 
----
+## Cloud Security Frameworks and Compliance
 
-### Cloud Networking & Security
+### Cloud Controls Matrix (CCM)
+- A security framework created by the Cloud Security Alliance, outlining detailed security controls and compliance requirements for cloud service providers.
 
-#### Cloud Access Security Brokers (CASB)
+### ISO Cloud Reference Architecture
+- A framework from the International Organization for Standardization (ISO) that outlines roles, responsibilities, and activities for cloud services.
 
-- **Network-based CASB**: Sits between user and cloud services to monitor security.
-    
-- **API-based CASB**: Queries cloud service via an API to monitor for security issues.
-    
+### Governance in Cloud Operations
+- Ensures effective oversight of cloud operations.
 
-#### Cloud Security Tools
+### Audibility in Cloud Computing
+- Allows customers to audit cloud providers' security operations.
 
-- **Cloud-native Controls**: Security controls offered by cloud providers for their services.
-    
-- **Resource Policies**: Limit actions taken by users with cloud access.
-    
+### Regulatory Oversight in Cloud Computing
+- Ensures compliance with regulations.
 
-#### Virtualization & Networking
+### Data Sovereignty
+- Refers to local laws governing data within specific jurisdictions.
 
-- **Virtualization**: Runs hypervisors on physical hardware.
-    
-    - **Type 1 Hypervisors**: Run directly on hardware (e.g., VMware, Hyper-V).
-        
-    - **Type 2 Hypervisors**: Run on an existing OS (e.g., VirtualBox).
-        
-- **ACLs (Access Control Lists)**: Used for filtering traffic on routers.
-    
-    - **Standard ACLs**: Filter by IP address.
-        
-    - **Extended ACLs**: Filter based on source/destination, ports, protocols.
-        
+## Cloud Security Technologies
 
----
+### Network-based CASB (Cloud Access Security Broker)
+- Sits between users and cloud services to monitor security.
 
-### IP & Network Security
+### API-based CASB
+- Queries cloud services via an API to monitor for security issues.
 
-#### TCP/IP and IP Addressing
+### Cloud-native Controls
+- Security controls offered by cloud providers for their services.
 
-- **TCP/IP**: Transmission Control Protocol (Transport Layer) and Internet Protocol (Network Layer).
-    
-- **IP Address**: Comprised of a network address (identifies network) and host address (identifies host).
-    
-- **Network Address Translation (NAT)**: Transition of private IP addresses to public addresses.
-    
-- **Subnetting**: Divides an IP address into network and host portions.
-    
+### Resource Policies in Cloud Security
+- Rules that define what users or roles can do within a cloud environment.
 
-#### DNS & Ports
+## Networking Concepts
 
-- **DNS**: Resolves domain names to IP addresses (Port 53).
-    
-- **DNSSEC**: Adds digital signatures to DNS records to ensure authenticity.
-    
-- **Port Ranges**:
-    
-    - 0-1023: Well-known ports.
-        
-    - 1024-49151: Application vendor ports.
-        
-    - 49152-65535: Dynamic ports.
-        
+### Virtualization in Networking
+- Runs hypervisors on physical hardware.
 
-#### Common Ports
+### Type 1 Hypervisors
+- Run directly on hardware (e.g., VMware, Hyper-V).
 
+### Type 2 Hypervisors
+- Run on an existing operating system (e.g., VirtualBox).
+
+### Access Control Lists (ACLs) in Networking
+- Used for filtering traffic on routers.
+  - **Standard ACLs**: Filter traffic by IP address.
+  - **Extended ACLs**: Filter based on source/destination, ports, and protocols.
+
+### Transmission Control Protocol (TCP) and Internet Protocol (IP)
+- TCP (Transport Layer) and IP (Network Layer) are fundamental components of the internet protocol suite.
+
+### IP Addressing
+- Comprised of a network address (identifies the network) and a host address (identifies the host).
+
+### Network Address Translation (NAT)
+- Translates private IP addresses to public addresses.
+
+### Subnetting
+- Divides an IP address into network and host portions.
+
+### DNS (Domain Name System)
+- Resolves domain names to IP addresses (Port 53).
+
+### DNSSEC (DNS Security Extensions)
+- Adds digital signatures to DNS records to ensure authenticity.
+
+### Port Ranges
+- **0-1023**: Well-known ports.
+- **1024-49151**: Application vendor ports.
+- **49152-65535**: Dynamic ports.
+
+### Common Ports
 - **FTP**: Port 21
-    
 - **SSH**: Port 22
-    
 - **RDP**: Port 3389
-    
 - **NetBIOS**: Ports 137-139
-    
 - **SMTP**: Port 25
-    
 - **POP**: Port 110
-    
 - **IMAP**: Port 143
-    
 
----
+## Firewall Types
 
-### Network Protocols & Security
+### Stateless Firewall
+- Filters traffic based on individual packets.
 
-#### Firewalls & IDS/IPS
+### Stateful Firewall
+- Monitors the state of active connections and filters traffic based on the context of the traffic, determining if an incoming packet is part of an existing, legitimate connection or potentially harmful.
 
-- **Firewall Types**:
-    
-    - **Stateless**: Filters based on individual packets.
-        
-    - **Stateful**: Tracks established connections.
-        
-    - **NGFW (Next-Generation Firewall)**: Works at all OSI layers and analyzes more than just packet filtering.
-        
-- **IPS Deployment**:
-    
-    - **Inline**: Device sits in the network path.
-        
-    - **Out-of-band**: Device gets copies of network traffic without intervening.
-        
+# Cybersecurity Notes
 
-#### VPN & SSL/TLS
+## Next-Generation Firewall (NGFW)
+- An advanced firewall that analyzes traffic at deeper levels, such as application data and user identity.
+- Detects malware and blocks more complex attacks compared to traditional firewalls.
 
-- **VPN Types**:
-    
-    - **Site-to-Site VPN**: Connects remote offices to headquarters.
-        
-    - **Remote Access VPN**: Provides access to corporate networks for mobile users.
-        
-    - **IPsec**: Provides secure transport for VPNs.
-        
-    - **SSL/TLS VPN**: Works over port 443.
-        
+## Inline IPS Deployment
+- An Intrusion Prevention System (IPS) device placed directly in the network path.
+- Actively monitors and prevents malicious traffic in real-time by blocking or alerting to threats.
 
-#### Load Balancers & VPN
+## Out-of-band IPS Deployment
+- An IPS device that monitors network traffic by receiving copies of the traffic without being directly in the network path.
+- Cannot block threats in real-time but can alert administrators for further action.
 
-- **Load Balancing**:
-    
-    - **Round-Robin**: Equal distribution of requests to servers.
-        
-    - **Active-Active**: Multiple load balancers handle traffic simultaneously.
-        
-    - **Active-Passive**: One load balancer handles all traffic, another takes over if it fails.
-        
+## Virtual Private Networks (VPN)
+- **Site-to-Site VPN**: Connects remote offices to the headquarters.
+- **Remote Access VPN**: Provides access to corporate networks for mobile users.
 
----
+## IPsec
+- Internet Protocol Security: A suite of protocols used to secure Internet Protocol (IP) communications.
+- Authenticates and encrypts each IP packet in a communication session.
+- Commonly used to create secure VPN connections.
 
-### Security in Cloud Services
+## SSL/TLS VPN
+- A type of VPN that uses SSL or TLS protocols to secure data transmitted over the internet.
 
-#### Security Measures
+## Load Balancing
+- **Round-Robin Load Balancing**: A distribution method that equally distributes requests to servers.
+- **Active-Active Load Balancing**: Multiple load balancers handle traffic simultaneously.
+- **Active-Passive Load Balancing**: One load balancer handles all traffic, and another takes over if it fails.
 
-- **MSSPs (Managed Security Service Providers)**: Offer security services for other organizations.
-    
-- **NAC (Network Access Control)**: Uses 802.1x to analyze and control network access.
-    
-- **Port Security**: Limits allowed MAC addresses on a switch port.
-    
+## Managed Security Service Provider (MSSP)
+- Third-party companies that manage and monitor security systems for businesses.
 
-#### Disaster Recovery
+## Network Access Control (NAC)
+- A security solution that enforces policies on devices attempting to connect to a network.
+- Ensures devices meet predefined security requirements before granting access.
+- Typically uses **802.1x** for authentication and authorization.
 
-- **RAID (Redundant Array of Inexpensive Disks)**: Fault tolerance technique, not a backup strategy.
-    
-- **Disaster Recovery Sites**:
-    
-    - **Hot Site**: Fully operational data center.
-        
-    - **Cold Site**: Empty data center without servers/data.
-        
-    - **Warm Site**: Partial setup with hardware and software, but not fully operational.
-        
-- **Backup Types**:
-    
-    - **Full**: Complete backup.
-        
-    - **Differential**: Backs up data modified since the last full backup.
-        
-    - **Incremental**: Backs up data modified since the last full or incremental backup.
-        
+## Port Security
+- A security feature on switches that restricts which MAC addresses can connect to each port.
 
-#### BC/DR (Business Continuity/Disaster Recovery)
+## RAID (Redundant Array of Inexpensive Disks)
+- Fault tolerance technique, not a backup strategy.
+- Various RAID configurations:
+  - **RAID 0 (Striping)**: Splits data across multiple drives to improve performance. Data is lost if a drive fails.
+  - **RAID 1 (Mirroring)**: Identical data written to two drives. One drive failure doesn't result in data loss but reduces storage capacity.
+  - **RAID 5 (Striping with Parity)**: Uses striping and stores parity information. Requires at least 3 drives. Can withstand one drive failure.
+  - **RAID 6 (Striping with Double Parity)**: Similar to RAID 5 but with double parity. Can withstand two drive failures. Requires at least 4 drives.
+  - **RAID 10 (Mirrored Striping)**: Combines RAID 1 and RAID 0 for high performance and fault tolerance. Requires at least 4 drives.
 
-- **BIA (Business Impact Assessment)**: Identifies and prioritizes risks.
-    
+## Site Recovery and Backup
+- **Hot Site**: A fully operational data center.
+- **Cold Site**: An empty data center without servers or data.
+- **Warm Site**: A partial setup with hardware and software but not fully operational.
+
+### Backup Types
+- **Full Backup**: A complete backup of all data.
+- **Differential Backup**: Backs up data that has changed since the last full backup.
+- **Incremental Backup**: Backs up data that has changed since the last backup of any type (full or incremental).
+
+## Business Continuity and Disaster Recovery
+- **Business Impact Assessment (BIA)**: Identifies and prioritizes risks to business operations.
 - **Fault Tolerance**: Ensures systems remain resilient to failures.
-    
-- **Recovery Objectives**:
-    
-    - **RTO (Recovery Time Objective)**: Max recovery time after disaster.
-        
-    - **RPO (Recovery Point Objective)**: Max data loss after disaster.
-        
+- **Recovery Time Objective (RTO)**: The maximum allowable downtime after a disaster.
+- **Recovery Point Objective (RPO)**: The maximum amount of data loss after a disaster.
 
----
-
-### Miscellaneous Topics
-
-#### Embedded Systems
-
+## Other Key Concepts
 - **Embedded Systems**: Technology components embedded inside larger systems (e.g., printers, self-driving cars).
-    
-
-#### Security Testing
-
 - **Penetration Testing**: Simulating cyberattacks to identify vulnerabilities.
+
+## Authentication and Authorization
+- **TACACS+**: A centralized AAA protocol for managing network gear access. It encrypts full packets for enhanced security.
+  - **Port**: TCP 49
+- **RADIUS**: A centralized AAA protocol for managing user access to network resources.
+  - **Ports**: UDP 1812 & 1813
+  - **Security Comparison**: TACACS+ is more secure than RADIUS as it encrypts the entire packet, while RADIUS only encrypts the password.
+
+## RAID 0 (Striping)
+- Splits data evenly across two or more drives to improve performance. If one drive fails, all data is lost.
+
+## RAID 1 (Mirroring)
+- Writes identical data to two drives simultaneously. One drive can fail without data loss, but storage capacity is halved.
+
+## RAID 5 (Striping with Parity)
+- Uses striping and stores parity information (error-checking data) across all drives. Requires at least 3 drives. If one drive fails, data can be rebuilt using parity.
+
+## RAID 6 (Striping with Double Parity)
+- Similar to RAID 5 but with double parity. Requires at least 4 drives and can withstand the failure of two drives.
+
+## RAID 10 (Mirrored Striping)
+- Combines RAID 1 and RAID 0 for high performance and fault tolerance. Requires at least 4 drives. Each pair of drives contains a full copy of the striped data.
