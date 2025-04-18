@@ -116,5 +116,3 @@ Run these in your terminal for more info:
 man curl
 curl --help
 ```
-
-Would you like me to save this as a `.md` file and send you a download link?
