@@ -1,5 +1,5 @@
-## Baby RSA 2 - DawgCTF 2025
-### Reconnaissance
+# Baby RSA 2 - DawgCTF 2025
+## Reconnaissance
 The challenge provided two files:
 - `chall.py` – containing the encryption logic and RSA parameters.
 - `output.txt` – containing the RSA public exponent `e`, private exponent `d`, modulus `N`, and the ciphertext `c`.
@@ -12,7 +12,7 @@ Our objective is to recover the plaintext flag from the ciphertext `c` using a c
 
 ---
 
-### Vulnerability & Exploit Strategy
+## Vulnerability & Exploit Strategy
 RSA encryption and decryption rely on the mathematical relationship:
 ```
 e * d ≡ 1 mod φ(N)
@@ -39,7 +39,7 @@ Using this, we treat `p` and `q` as the roots of a quadratic equation and solve 
 
 ---
 
-### Decryption Process
+## Decryption Process
 Once we’ve obtained `p` and `q`, we recalculate φ(N) using:
 ```
 φ(N) = (p - 1)(q - 1)
@@ -54,12 +54,12 @@ With `d` and `N`, we can decrypt the ciphertext `c` using Python’s built-in `p
 
 ---
 
-### Final Python Script
+## Final Python Script
 ![image](https://github.com/user-attachments/assets/13b62605-0960-44cb-b069-c3f7aa3278e9)
 
 ---
 
-### Output
+## Output
 Running the script successfully reveals the flag:
 
 ![image](https://github.com/user-attachments/assets/2a41664f-bb49-4e27-982f-1a93bcfd646a)
