@@ -1,5 +1,5 @@
-## Baby RSA 1 - DawgCTF 2025
-### Reconnaissance
+# Baby RSA 1 - DawgCTF 2025
+## Reconnaissance
 The challenge provides us with a **Python script** and an **output file** containing the following RSA-related values:
 - `N` (modulus)
 - `e` (public exponent)
@@ -13,7 +13,10 @@ y = c*p + d*q
 ```
 
 The goal is to determine the prime factors `p` and `q` of the modulus `N` using the above equations, and then decrypt the ciphertext `ct` using RSA decryption.
-### Environment Setup
+
+---
+
+## Environment Setup
 The provided script required specific Python packages, so I created a **virtual environment** to run it cleanly:
 1. Create a virtual environment
 ```bash
@@ -27,7 +30,10 @@ source ~/myenv/bin/activate
 ```
 pip install pycryptodome sympy
 ```
-### Exploitation & Decryption
+
+---
+
+## Exploitation & Decryption
 Once the environment was prepared, I ran the RSA decryption script (`rsa_decrypt.py`), which performed the following steps:
 1. **Solving for `p` and `q`**  
     The script uses `sympy` to solve a system of linear equations to recover the RSA primes `p` and `q` using the values of `x` and `y`.
@@ -36,7 +42,13 @@ Once the environment was prepared, I ran the RSA decryption script (`rsa_decrypt
 3. **Decrypting the Ciphertext**  
     Using `d`, the script decrypts the ciphertext
 4. Finally, it converts the plaintext integer into bytes to reveal the flag.
-![[Pasted image 20250418130606.png]]
-### Flag Recovered
+   
+![image](https://github.com/user-attachments/assets/4547fab8-bd1f-4c2f-8937-e48232168e17)
+
+---
+
+## Flag Recovered
 Upon running our script, we successfully print out the flag:
-![[Pasted image 20250418130805.png]]
+
+![image](https://github.com/user-attachments/assets/8fa7cee8-794c-4f3d-a0b2-e7ec4a86ffec)
+
