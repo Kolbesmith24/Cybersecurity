@@ -3,7 +3,8 @@
 The challenge provided two files:
 - `chall.py` – containing the encryption logic and RSA parameters.
 - `output.txt` – containing the RSA public exponent `e`, private exponent `d`, modulus `N`, and the ciphertext `c`.
-![image](https://github.com/user-attachments/assets/f45e3f1b-3bbd-46bb-bef2-34f5090ed487)
+![image](https://github.com/user-attachments/assets/a9b3404d-2545-4772-ac9c-307b63747dc4)
+
 
 From the provided information, we know this is an RSA decryption challenge. The interesting twist is that while we are given the private exponent `d`, we are not given the prime factors `p` and `q` of `N`, which are typically needed to derive the totient φ(N).
 
@@ -45,8 +46,10 @@ d = inverse(e, φ(N))
 
 With `d` and `N`, we can decrypt the ciphertext `c` using Python’s built-in `pow()` function and convert the result to bytes to reveal the flag.
 ### Final Python Script
-![image](https://github.com/user-attachments/assets/6700ce57-5590-4170-a94f-91997bcae20d)
+![image](https://github.com/user-attachments/assets/13b62605-0960-44cb-b069-c3f7aa3278e9)
 
 ### Output
 Running the script successfully reveals the flag:
-![image](https://github.com/user-attachments/assets/800a642b-6ba1-4b36-86a0-4f8b02641f46)
+
+![image](https://github.com/user-attachments/assets/2a41664f-bb49-4e27-982f-1a93bcfd646a)
+
