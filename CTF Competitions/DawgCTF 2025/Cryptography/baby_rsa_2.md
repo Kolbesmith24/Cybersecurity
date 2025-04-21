@@ -9,6 +9,9 @@ The challenge provided two files:
 From the provided information, we know this is an RSA decryption challenge. The interesting twist is that while we are given the private exponent `d`, we are not given the prime factors `p` and `q` of `N`, which are typically needed to derive the totient φ(N).
 
 Our objective is to recover the plaintext flag from the ciphertext `c` using a cryptographic trick that allows us to recover `p` and `q` from the relationship between `e`, `d`, and φ(N).
+
+---
+
 ### Vulnerability & Exploit Strategy
 RSA encryption and decryption rely on the mathematical relationship:
 ```
@@ -33,6 +36,9 @@ N = p * q
 ```
 
 Using this, we treat `p` and `q` as the roots of a quadratic equation and solve for them. If the derived values of `p` and `q` multiply to `N`, we have successfully factored the modulus.
+
+---
+
 ### Decryption Process
 Once we’ve obtained `p` and `q`, we recalculate φ(N) using:
 ```
@@ -45,8 +51,13 @@ d = inverse(e, φ(N))
 ```
 
 With `d` and `N`, we can decrypt the ciphertext `c` using Python’s built-in `pow()` function and convert the result to bytes to reveal the flag.
+
+---
+
 ### Final Python Script
 ![image](https://github.com/user-attachments/assets/13b62605-0960-44cb-b069-c3f7aa3278e9)
+
+---
 
 ### Output
 Running the script successfully reveals the flag:
