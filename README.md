@@ -15,7 +15,6 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ### Writeups
 #### Hack The Box
-- [Hack The Box Challenges](./Writeups/Hack%20The%20Box/Challenges/)
 - [Hack The Box Machines](./Writeups/Hack%20The%20Box/Machines/)
 
 #### TryHackMe
