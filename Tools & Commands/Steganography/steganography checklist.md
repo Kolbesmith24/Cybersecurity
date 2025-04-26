@@ -29,10 +29,10 @@ Alternatively, online tools allow visualizing strings within an uploaded image.
 
 ## 3. Examine EXIF Metadata
 
-Metadata can contain useful hints or embedded information. Use tools like:
-- [Jeffrey's Image Metadata Viewer](https://exif.regex.info/exif.cgi)
-
-This viewer allows for a deep dive into EXIF data, including camera details, creation times, comments, and possibly hidden messages.
+Metadata can contain useful hints or embedded information. Use exiftool to see the metadata:
+```
+exiftool file.png
+```
 
 ---
 
