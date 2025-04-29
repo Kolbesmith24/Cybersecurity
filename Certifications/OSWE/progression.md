@@ -3,11 +3,22 @@ To study for the OSWE, I am first enumerating through all the boxes provided by 
 [TJNull's OSWE HTB List](https://docs.google.com/spreadsheets/u/0/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview?pli=1#)
 - I added a few extra boxes to improve my web exploitation skills in general for CTF competitions!
 
+I am also planning on writing a script for each box to practice my scripting skills. That being said, I will also be enumerating through W3 schools and going through the Python, JavaScript, PHP, and C modules.
+https://www.w3schools.com/
+
 I am also utilizing PortSwigger Academy course materials to learn all web exploitation techniques.
 
 Once I've completed all PortSwigger Academy Topics, and all the boxes and challenges from HTB and learned all techniques from each box, I am planning on taking practice exams to dial in my knowledge and focus on my weak areas.
 
 Follow my progression as I post writups for each box I complete [here](/Writeups/Hack%20The%20Box/).
+
+## W3 Schools Scripting Languages
+- [ ] Python
+- [ ] JavaScript
+- [ ] C
+- [ ] PHP
+
+---
 
 ## PortSwigger Academy Topics
 ### **Server-Side Topics**
