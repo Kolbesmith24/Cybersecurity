@@ -13,7 +13,7 @@ Once I've completed all PortSwigger Academy Topics, and all the boxes and challe
 Follow my progression as I post writups for each box I complete [here](/Writeups/Hack%20The%20Box/).
 
 ## W3 Schools Scripting Languages
-- [ ] Python
+- [X] Python
 - [ ] JavaScript
 - [ ] C
 - [ ] PHP
@@ -22,7 +22,7 @@ Follow my progression as I post writups for each box I complete [here](/Writeups
 
 ## PortSwigger Academy Topics
 ### **Server-Side Topics**
-- [ ] SQL Injection
+- [X] SQL Injection
 - [ ] OS Command Injection
 - [ ] File Path Traversal
 - [ ] Server-Side Request Forgery (SSRF)
