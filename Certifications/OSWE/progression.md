@@ -49,7 +49,7 @@ Follow my progression as I post writeups for each box I complete [here](/Writeup
 - [ ] File upload vulnerabilities
 - [ ] HTTP Host header attacks
 - [ ] WebSockets vulnerabilities
-- [ ] HTTP request smuggling
+- [x] HTTP request smuggling
 - [ ] JWT security issues
 
 ### **Advanced Exploitation Techniques**
@@ -101,7 +101,6 @@ Follow my progression as I post writeups for each box I complete [here](/Writeup
 - [ ] **ImageTok (VIP)** – File upload vulnerability combined with deserialization.
 
 ---
-
 ## HTB Boxes for OSWE/CTFs:
 ### 🟢 **Easy**
 - [x] **Academy** – Basic IDOR and OAuth misconfigs
