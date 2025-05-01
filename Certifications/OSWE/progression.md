@@ -10,10 +10,11 @@ I am also utilizing PortSwigger Academy course materials to learn all web exploi
 
 Once I've completed all PortSwigger Academy Topics, and all the boxes and challenges from HTB and learned all techniques from each box, I am planning on taking practice exams to dial in my knowledge and focus on my weak areas.
 
-Follow my progression as I post writups for each box I complete [here](/Writeups/Hack%20The%20Box/).
+Follow my progression as I post writeups for each box I complete [here](/Writeups/Hack%20The%20Box/).
 
-## W3 Schools Scripting Languages
-- [X] Python
+## W3 Schools Scripting Languages 
+- *Go through entire course for each language*
+- [x] Python
 - [ ] JavaScript
 - [ ] C
 - [ ] PHP
@@ -22,9 +23,9 @@ Follow my progression as I post writups for each box I complete [here](/Writeups
 
 ## PortSwigger Academy Topics
 ### **Server-Side Topics**
-- [X] SQL Injection
+- [x] SQL Injection
 - [ ] OS Command Injection
-- [ ] File Path Traversal
+- [x] File Path Traversal
 - [ ] Server-Side Request Forgery (SSRF)
 - [ ] Web Cache Poisoning
 - [ ] Server-Side Template Injection (SSTI)
@@ -67,49 +68,70 @@ Follow my progression as I post writups for each box I complete [here](/Writeups
 - [ ] Web app business logic exploitation
 
 ---
-
-
-## HTB Boxes for OSWE/CTFs:
-- [ ] Academy (Basic IDOR and OAuth misconfigurations)  
-- [ ] NodeBlog (Stored XSS leading to account takeover)  
-- [ ] Book (SQLi and XSS with front-end sanitization)  
-- [ ] ForwardSlash (Path traversal and tricky logic flaws)  
-- [ ] MonitorsTwo (Authentication bypass and command injection)  
-- [ ] Registry (File upload issues and SQLi)  
-- [ ] Laboratory (Prototype pollution leading to RCE)  
-- [ ] Previse (Race condition and path manipulation attacks)  
-- [ ] Mango (NoSQL injection and session logic flaws)  
-- [ ] Craft (SSRF leading to RCE through API abuse)  
-- [ ] Trick (Multi-stage auth bypass and remote code execution)  
-- [ ] OpenAdmin (Misconfigured admin panel enumeration)  
-- [ ] Vault (Authentication bypass and race conditions)  
-- [ ] Popcorn (Basic file upload and old RCE techniques)  
-- [ ] Celestial (Prototype pollution and logic manipulation)  
-- [ ] Falafel (SQLi using boolean-based exploitation)  
-- [ ] Zipper (Path traversal with ZIP archive vulnerabilities)  
-- [ ] Schooled (Authentication and logic flaws in education platforms)  
-- [ ] Sink (Misuse of dynamic features leading to RCE)  
-- [ ] Monitors (Command injection from web management panels)  
-- [ ] Magic (File upload bypass and weak server-side validation)  
-- [ ] Fulcrum (Chained vulnerabilities in web apps)  
-- [ ] Unobtainium (Multi-layer authentication bypass and code execution)  
-- [ ] Crossfit (Authentication bypass via misconfigured endpoints)  
-- [ ] Crossfit2 (Advanced logic flaws and privilege escalation)  
-- [ ] Stacked (Chained vulnerabilities through web applications)  
-- [ ] Fingerprint (Information disclosure and auth flaws)  
-- [ ] Cereal (Deserialization attack exploitation)  
-- [ ] JSON (Windows box)
+## HTB Web Challenges for OSWE/CTFs:
+### 🟢 Easy
+- [ ] **Flag Command** – Command injection vulnerability.
+- [ ] **Trapped Source (VIP)** – Bug discovered through source code review.
+- [ ] **Jailbreak (VIP)** – Sandbox escape and logic flaws.
+- [ ] **Templated (VIP)** – Template injection vulnerability.
+- [ ] **baby auth (VIP)** – Authentication bypass issue.
+- [ ] **baby nginxatsu (VIP)** – Path traversal and filter bypass.
+- [ ] **baby todo or not todo (VIP)** – Business logic flaws.
+- [ ] **HTBank (VIP)** – Authentication bypass combined with logic issues.
+- [ ] **ProxyAsAService (VIP)** – SSRF vulnerability and potential HTTP smuggling.
+- [ ] **emoji voting (VIP)** – Vote manipulation through logic flaws.
+- [ ] **CurlAsAService (VIP)** – SSRF vulnerability.
+- [ ] **ApacheBlaze (VIP)** – Apache misconfigurations and SSRF vulnerabilities.
+### 🟡 Medium
+- [ ] **SerialFlow (VIP)** – Insecure deserialization vulnerability.
+- [ ] **Stylish (VIP)** – JavaScript or template injection vulnerability.
+- [ ] **WS-Todo (VIP)** – Business logic flaw.
+- [ ] **GrandMonty (VIP)** – Known box with complex logic issues.
+- [ ] **baby sql (VIP)** – SQL injection, particularly blind SQLi.
+- [ ] **nginxatsu (VIP)** – Path traversal and filter bypass.
+- [ ] **breaking grad (VIP)** – Exploit chaining involving multiple vulnerabilities.
+- [ ] **wafwaf (VIP)** – WAF bypass combined with injection.
+- [ ] **interdimensional internet (VIP)** – Chained logic bypass vulnerabilities.
+- [ ] **pcalc (VIP)** – Expression evaluation leading to RCE.
+- [ ] **baby website rick (VIP)** – Logic flaws and chaining vulnerabilities.
+### 🟠 Hard
+- [ ] **Pod Diagnostics** – Complex chained vulnerabilities.
+- [ ] **ArtificialUniversity** – Source code review and bypass chaining.
+- [ ] **BoneChewerCon (VIP)** – Multiple OSWE-style logic flaws.
+- [ ] **ImageTok (VIP)** – File upload vulnerability combined with deserialization.
 
 ---
 
-## HTB Web Challenges for OSWE/CTFs:
-- [ ] Responder (Authentication bypass using clever trickery)  
-- [ ] Cartographer (IDOR logic flaws in API)  
-- [ ] ImageSaver (File upload validation bypass)  
-- [ ] Help (XSS through DOM manipulation)  
-- [ ] Web of Lies (Path traversal and finding hidden data)  
-- [ ] Override (Logic bypass in web application flow)  
-- [ ] FindMe (Information disclosure through flawed web flows)  
-- [ ] Giftcard Theft (Business logic flaw for multi-step exploitation)
+## HTB Boxes for OSWE/CTFs:
+### 🟢 **Easy**
+- [x] **Academy** – Basic IDOR and OAuth misconfigs
+- [ ] **Previse** – Race condition and path manipulation
+- [ ] **Laboratory** – Prototype pollution is often tested in modern web app assessments.
+- [ ] **MonitorsTwo** – Auth bypass + command injection
+- [ ] **Trick** – Multi-stage auth bypass and RCE
+- [ ] **Help** – XSS for chained attacks (e.g., XSS to token theft).
+
+### 🟡 **Medium**
+- [ ] **Book** – SQLi and XSS, especially front-end sanitization
+- [ ] **Magic** – File upload bypass and weak validation
+- [ ] **Lazy** – File upload to RCE
+- [ ] **Mango** – NoSQL injection and session logic flaws
+- [ ] **Craft** – SSRF to RCE through API abuse
+- [ ] **Vault** – Auth bypass and race conditions
+- [ ] **Catch** – Regex filter bypass aka filter evasion
+- [ ] **Celestial** – Prototype pollution and logic flaws
+### 🟠 **Hard**
+- [ ] **ForwardSlash** – Path traversal and logic flaws
+- [ ] **Zipper** – Path traversal via ZIP
+- [ ] **Cereal** – Deserialization attacks
+- [ ] **Registry** – File upload + SQLi
+- [ ] **Falafel** – SQLi via manual exploitation
+- [ ] **Unobtainium** – Auth bypass and multi-stage exploitation
+### 🔴 **Insane**
+- [ ] **CrossFitTwo** – Advanced logic flaws and web priv esc
+- [ ] **Sink** – Dynamic feature abuse leading to RCE
+- [ ] **Crossfit** – Misconfigured endpoints and auth bypass
+- [ ] **Stacked** – Chained vulnerabilities in web apps
+- [ ] **Fulcrum** – Chaining web flaws.
 
 ---
