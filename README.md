@@ -76,7 +76,7 @@ This repository documents everything I'm learning on my journey to becoming a pe
 - [System Enumeration](/Offensive%20Security%20Techniques/Reconnaissance/System/System%20enumeration.md)
 - [Terminal Reconnaissance](/Offensive%20Security%20Techniques/Reconnaissance/Terminal/Terminal%20reconnaissance.md)
 - [Wireshark](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Wireshark/Wireshark.md)
-### Web Exploitation Techniques
+### **Web Exploitation Techniques**
 - [Access Control Vulnerabilities](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Access%20Control%20Vulnerabilities/)
 - [Authentication Bypass](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Authentication%20Bypass/)
 - [Command Injection](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Command%20Injection/)
