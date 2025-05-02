@@ -15,26 +15,27 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ---
 
-### Writeups
+### Labs & Competitions (Writeups)
 #### Hack The Box
-- [Hack The Box - Boxes](./Writeups/Hack%20The%20Box/Boxes/)
-- [Hack The Box - Challenges](./Writeups/Hack%20The%20Box/Challenges/)
+- [Hack The Box - Boxes](./Labs%20&%20Writeups/Hack%20The%20Box/Boxes/)
+- [Hack The Box - Challenges](./Labs%20&%20Writeups/Hack%20The%20Box/Challenges/)
 
 #### TryHackMe
-- [TryHackMe Account](my%20account.md)
-- [TryHackMe Challenges](./Writeups/TryHackMe/Challenges/)
+- [TryHackMe Account](./Labs%20&%20Writeups/TryHackMe/my%20account.md)
+- [TryHackMe Challenges](./Labs%20&%20Writeups/TryHackMe/Challenges/)
 
 #### CTF Competitions
 - [picoCTF 2024](./CTF%20Competitions/picoCTF/)
-- [BearcatCTF 2024](Challenges.md)
+- [BearcatCTF 2024](/CTF%20Competitions/BearcatCTF%2024/)
 - [DawgCTF 2025](./CTF%20Competitions/DawgCTF%202025/)
 - [UMDCTF 2025](./CTF%20Competitions/UMDCTF%202025/)
+- [Midnight Sun CTF 2025](./CTF%20Competitions/Midnight%20Sun%202025/)
 
 ---
 
 ### Tools & Commands
-- [Burp Suite](burp%20suite.md)
-- [Curl](curl.md)
+- [Burp Suite](Burp%20Suite.md)
+- [Curl](Cybersecurity/Tools%20&%20Commands/Curl/curl.md)
 - [Chunkalate](Cybersecurity/Tools%20&%20Commands/Chunkalate/Chunkalate.md)
 - [Docker – Starting Files](docker.md)
 - [FFUF](FFUF.md)
