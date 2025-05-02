@@ -2,8 +2,8 @@
 ## Reconnaissance / Information Gathering
 We first receive the Host information: `83.136.255.10:55943`
 
-![[Pasted image 20250502073519.png]]
-![Pasted image 20250502073519.png](Pasted%20image%2020250502073519.png)
+![image](https://github.com/user-attachments/assets/ec065050-9282-4ba5-bd7e-7d46b1f85283)
+
 
 Putting this in our web browser, we are faced with a website that is telling a story about being in a alien forest. We are prompted to type 'start' to start our adventure:
 ![Pasted image 20250502073705](Cybersecurity/Screenshots/Pasted%20image%2020250502073705.png)
