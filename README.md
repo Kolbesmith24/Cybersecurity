@@ -24,15 +24,15 @@ This repository documents everything I'm learning on my journey to becoming a pe
 - [BearcatCTF 2024](/CTF%20Competitions/BearcatCTF%202024/)
 - [DawgCTF 2025](./CTF%20Competitions/DawgCTF%202025/)
 - [UMDCTF 2025](./CTF%20Competitions/UMDCTF%202025/)
-- [Midnight Sun CTF 2025](./CTF%20Competitions/Midnight%20Sun%202025/)
+- [Midnight Sun CTF 2025](./CTF%20Competitions/Midnight%20Sun%20CTF%202025/)
 
 ---
 ### Offensive Security Techniques
 #### Tools & Commands
 ##### Web
-- [Burp Suite](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Burp%20Suite/burp%20suite.md)
-- [Curl](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Curl/curl.md)
-- [FFUF](/Offensive%20Security%20Techniques/Tools%20&%20Commands/FFUF/ffuf.md)
+- [Burp Suite](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Burp%20Suite/Burp%20Suite.md)
+- [Curl](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Curl/Curl.md)
+- [FFUF](/Offensive%20Security%20Techniques/Tools%20&%20Commands/FFUF/FFUF.md)
 - [Gobuster](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Gobuster/Gobuster.md)
 - [Hydra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Hydra/Hydra.md)
 - [Metasploit – Overview](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Metasploit/Overview.md)
