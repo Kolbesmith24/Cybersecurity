@@ -34,13 +34,14 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 ---
 
 ### Tools & Commands
-- [Burp Suite](Burp%20Suite.md)
-- [Curl](/Tools%20&%20Commands/Curl/curl.md)
-- [Chunkalate](Cybersecurity/Tools%20&%20Commands/Chunkalate/Chunkalate.md)
-- [Docker – Starting Files](docker.md)
-- [FFUF](FFUF.md)
-- [GDB](Cybersecurity/Tools%20&%20Commands/GDB/Gdb.md)
-- [Ghidra](Cybersecurity/Tools%20&%20Commands/Ghidra/Ghidra.md)
+- [Burp Suite](/Tools%20&%20Commands/Burp%20Suite/Burp%20Suite.md)
+- [Curl](/Tools%20&%20Commands/Curl/Curl.md)
+- [Checksec](/Tools%20&%20Commands/Checksec/Checksec.md)
+- [Chunkalate](/Tools%20&%20Commands/Chunkalate/Chunkalate.md)
+- [Docker Files](/Tools%20&%20Commands/Docker/Docker%20Files.md)
+- [FFUF](/Tools%20&%20Commands/FFUF/FFUF.md)
+- [GDB](/Tools%20&%20Commands/GDB/)
+- [Ghidra](/Tools%20&%20Commands/Ghidra/Ghidra.md)
 - [Gobuster](Gobuster.md)
 - [Hping](hping.md)
 - [Hydra](Cybersecurity/Tools%20&%20Commands/Hydra/Hydra.md)
