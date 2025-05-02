@@ -6,27 +6,34 @@ We first receive the Host information: `83.136.255.10:55943`
 
 
 Putting this in our web browser, we are faced with a website that is telling a story about being in a alien forest. We are prompted to type 'start' to start our adventure:
-![Pasted image 20250502073705](Cybersecurity/Screenshots/Pasted%20image%2020250502073705.png)
+
+![image](https://github.com/user-attachments/assets/62294dbc-1a3f-48b3-a588-9aa4ac008721)
 
 Going through the adventure with the available adventure options, we die and have to start again:
-![Pasted image 20250502073841](Cybersecurity/Screenshots/Pasted%20image%2020250502073841.png)
+![image](https://github.com/user-attachments/assets/15f0d537-80de-459c-8615-7aa3a96ba5fe)
+
 
 We can view the main script for the game in the source code. Here we can find if the game displays 'HTB{', then we win the game:
-![Pasted image 20250502074403](Cybersecurity/Screenshots/Pasted%20image%2020250502074403.png)
+![image](https://github.com/user-attachments/assets/37d55b62-5241-41a1-a978-39fdcd169813)
+
 
 When trying to put in other JavaScript commands, we are told we can't use other commands, and we must choose from the available options (which are displayed using the command 'help'):
-![Pasted image 20250502075240](Cybersecurity/Screenshots/Pasted%20image%2020250502075240.png)
+![image](https://github.com/user-attachments/assets/eeeb825e-57d4-40bf-a881-794b9be9a769)
+
 
 Exploring different avenues, we can find a GET request being sent to '/api/options' in the Network tab of our developer's tool:
-![Pasted image 20250502075512](Cybersecurity/Screenshots/Pasted%20image%2020250502075512.png)
+![image](https://github.com/user-attachments/assets/8aebd1df-a675-4341-8e87-d8167b18f7d9)
+
 
 Going to this destination, we can find all the command options for when we start the game. At the bottom, we see the secret value:
-![Pasted image 20250502075557](Cybersecurity/Screenshots/Pasted%20image%2020250502075557.png)
+![image](https://github.com/user-attachments/assets/702600ad-1d6c-4e50-98f9-c48ea767117b)
+
 Secret: `Blip-blop, in a pickle with a hiccup! Shmiggity-shmack`
 
 ## Exploitation
 We can start the game with 'start', then enter the 'secret' value into the command-line to get the flag:
-![Pasted image 20250502075817](Cybersecurity/Screenshots/Pasted%20image%2020250502075817.png)
+![image](https://github.com/user-attachments/assets/82634a97-1d43-4772-9ac4-5e560e245ee8)
+
 
 # Automation with Python
 We can write the following script to automate the process of retrieving the secret value, starting the game, and importing the secret command and exporting the flag:
@@ -73,4 +80,5 @@ print(flag)
 - Lastly, we extract the response from the server and filter out the flag to only respond with the value of the flag
 
 Running the script we get the following:
-![Pasted image 20250502090111](Cybersecurity/Screenshots/Pasted%20image%2020250502090111.png)
+![image](https://github.com/user-attachments/assets/fb692b67-56a1-41e6-bc1d-ac9a74ebdad6)
+
