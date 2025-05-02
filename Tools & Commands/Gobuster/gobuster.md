@@ -1,12 +1,9 @@
 # Gobuster - Directory and File Discovery Tool
-
-Gobuster is a tool used to discover hidden URLs, files, and directories within websites. It helps penetration testers and security professionals find unlinked or hidden resources that could potentially contain vulnerabilities or sensitive data.
-
 ## Syntax
 
 The basic syntax for running Gobuster to discover directories and files on a web server is as follows:
 ```
-gobuster dir -u http://IP_ADDRESS -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x html,js,txt,php,db,json,log -q -o OUTPUT_FILE
+gobuster dir -u https://mainwp.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x html,js,txt,php,db,json,log -q -s "200,301,302,500" -b ""
 ```
 
 ### Parameters:
@@ -20,9 +17,9 @@ gobuster dir -u http://IP_ADDRESS -w /usr/share/wordlists/dirbuster/directory-li
 
 ## Example Command
 
-Here is an example command for Gobuster that runs a directory scan on a website:
+Here is an example command for Gobuster that runs a directory scan on a website and outputs it to the OUTPUT_FILE:
 ```
-gobuster dir -u https://mainwp.com/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x html,js,txt,php,db,json,log -q -s "200,301,302,500" -b ""
+gobuster dir -u http://IP_ADDRESS -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x html,js,txt,php,db,json,log -q -o OUTPUT_FILE
 ```
 
 ### Parameters in this Example:

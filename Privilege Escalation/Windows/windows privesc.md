@@ -193,3 +193,30 @@ winpeas.exe > output.txt
 PowerShell script for checking common privilege escalation misconfigurations.
 
 ---
+### WES-NG: Windows Exploit Suggester - Next Generation
+Some exploit suggesting scripts (e.g. winPEAS) will require you to upload them to the target system and run them there. This may cause antivirus software to detect and delete them. To avoid making unnecessary noise that can attract attention, you may prefer to use WES-NG, which will run on your attacking machine (e.g. Kali)
+
+WES-NG is a Python script that can be found and downloaded [here](https://github.com/bitsadmin/wesng).
+
+Once installed, and before using it, type the `wes.py --update` command to update the database. The script will refer to the database it creates to check for missing patches that can result in a vulnerability.
+
+To use the script, you will need to run the `systeminfo` command on the target system. Do not forget to direct the output to a .txt file
+
+Once this is done, wes.py can be run as follows:
+```
+wes.py systeminfo.txt
+```
+
+### [[Main Components]] AKA Metasploit
+If you already have a Meterpreter shell on the target system, you can use the `multi/recon/local_exploit_suggester` module to list vulnerabilities that may affect the target system and allow you to elevate your privileges on the target system.
+
+## Additional Techniques
+Should you be interested in learning about additional techniques, the following resources are available:
+
+- [PayloadsAllTheThings - Windows Privilege Escalation](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md)
+- [Priv2Admin - Abusing Windows Privileges](https://github.com/gtworek/Priv2Admin)
+- [RogueWinRM Exploit](https://github.com/antonioCoco/RogueWinRM)
+- [Potatoes](https://jlajara.gitlab.io/others/2020/11/22/Potatoes_Windows_Privesc.html)
+- [Decoder's Blog](https://decoder.cloud/)
+- [Token Kidnapping](https://dl.packetstormsecurity.net/papers/presentations/TokenKidnapping.pdf)
+- [Hacktricks - Windows Local Privilege Escalation](https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation)

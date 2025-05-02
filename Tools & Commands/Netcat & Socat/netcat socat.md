@@ -3,7 +3,21 @@
 Netcat and Socat are powerful tools commonly used for network communication, particularly in penetration testing and security assessments. Both tools can facilitate remote access, reverse shells, and port listening. This guide provides an in-depth overview of their usage and syntax.
 
 ---
+## Quick Reference
+On one side, you can listen to a specific port, such as:
+```
+nc -lnvp 1234
+```
 
+On the client-side, you can connect to this port with:
+```
+nc MACHINE_IP 1234
+```
+
+To make the shell interactive, so you can switch users, we need to stabilize it with:
+```
+python -c 'import pty;pty.spawn("/bin/bash")'
+```
 ## Netcat
 
 **Netcat** (often abbreviated as `nc`) is a versatile networking tool that can establish connections between machines, listen on ports, and even transfer data. It is often referred to as the "Swiss Army knife" of networking tools.

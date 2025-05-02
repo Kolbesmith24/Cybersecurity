@@ -1,6 +1,7 @@
 # Cybersecurity Notes
 
-Welcome to my personal cybersecurity notes repository!  
+Welcome to my personal cybersecurity notes repository! 
+
 This repo documents everything I'm learning on my journey to becoming a penetration tester — from certifications and CTFs to tools, attack techniques, and red team methodologies.
 
 
@@ -20,67 +21,67 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 - [Hack The Box - Challenges](./Writeups/Hack%20The%20Box/Challenges/)
 
 #### TryHackMe
-- [TryHackMe Account](./Writeups/TryHackMe/my%20account.md)
+- [TryHackMe Account](my%20account.md)
 - [TryHackMe Challenges](./Writeups/TryHackMe/Challenges/)
 
 #### CTF Competitions
 - [picoCTF 2024](./CTF%20Competitions/picoCTF/)
-- [BearcatCTF 2024](./CTF%20Competitions/BearcatCTF%202024/challenges.md)
+- [BearcatCTF 2024](Challenges.md)
 - [DawgCTF 2025](./CTF%20Competitions/DawgCTF%202025/)
 - [UMDCTF 2025](./CTF%20Competitions/UMDCTF%202025/)
 
 ---
 
 ### Tools & Commands
-- [Burp Suite](./Tools%20&%20Commands/Burp%20Suite/burp%20suite.md)
-- [Curl](./Tools%20&%20Commands/Curl/curl.md)
-- [Chunkalate](./Tools%20&%20Commands/Chunkalate/chunkalate.md)
-- [Docker – Starting Files](./Tools%20&%20Commands/Docker/docker.md)
-- [FFUF](./Tools%20&%20Commands/FFUF/ffuf.md)
-- [GDB](./Tools%20&%20Commands/GDB/gdb.md)
-- [Ghidra](./Tools%20&%20Commands/Ghidra/ghidra.md)
-- [Gobuster](./Tools%20&%20Commands/Gobuster/gobuster.md)
-- [Hping](./Tools%20&%20Commands/Hping/hping.md)
-- [Hydra](./Tools%20&%20Commands/Hydra/hydra.md)
-- [John The Ripper](./Tools%20&%20Commands/John%20The%20Ripper/john.md)
-- [Metasploit – Overview](./Tools%20&%20Commands/Metasploit/metasploit%20overview.md)
-  - [Metasploit – Exploitation](./Tools%20&%20Commands/Metasploit/metasploit%20exploitation.md)
-  - [Metasploit – Meterpreter](./Tools%20&%20Commands/Metasploit/meterpreter.md)
-  - [Metasploit – Msfvenom](./Tools%20&%20Commands/Metasploit/msfvenom.md)
-- [Minimodem](./Tools%20&%20Commands/Minimodem/minimodem.md)
-- [Netcat & Socat](./Tools%20&%20Commands/Netcat%20&%20Socat/netcat%20socat.md)
-- [Nmap – Reference Sheet](./Tools%20&%20Commands/Nmap/nmap%20cheatsheet.md)
-- [PdfToText](./Tools%20&%20Commands/Pdftotext/pdftotext.md)
-- [Quipqiup](./Tools%20&%20Commands/Quipqiup/quipqiup.md)
-- [ReGripper/ReLookup](./Tools%20&%20Commands/RegRipper%20&%20RegLookup/regripper_reglookup.md)
-- [Sleuthkit & Autopsy](./Tools%20&%20Commands/Sleuthkit/sleuthkit.md)
-- [Spectogram](./Tools%20&%20Commands/Spectogram/spectogram.md)
-- [SSH (Secure Shell)](./Tools%20&%20Commands/SSH/ssh.md)
-- [Steganography](./Tools%20&%20Commands/Steganography/steganography%20checklist.md)
-  - [StegOnline](./Tools%20&%20Commands/Steganography/stegsnow_steghide.md)
-  - [Stegsnow & Steghide](./Tools%20&%20Commands/Steganography/steganography%20checklist.md)
-  - [Zsteg](./Tools%20&%20Commands/Steganography/zsteg.md)
-- [Wireshark](./Tools%20&%20Commands/Wireshark/wireshark.md)
+- [Burp Suite](burp%20suite.md)
+- [Curl](curl.md)
+- [Chunkalate](Cybersecurity/Tools%20&%20Commands/Chunkalate/Chunkalate.md)
+- [Docker – Starting Files](docker.md)
+- [FFUF](FFUF.md)
+- [GDB](Cybersecurity/Tools%20&%20Commands/GDB/Gdb.md)
+- [Ghidra](Cybersecurity/Tools%20&%20Commands/Ghidra/Ghidra.md)
+- [Gobuster](Gobuster.md)
+- [Hping](hping.md)
+- [Hydra](Cybersecurity/Tools%20&%20Commands/Hydra/Hydra.md)
+- [John The Ripper](john.md)
+- [Metasploit – Overview](Overview.md)
+  - [Metasploit – Exploitation](Cybersecurity/Tools%20&%20Commands/Metasploit/Exploitation.md)
+  - [Metasploit – Meterpreter](Cybersecurity/Tools%20&%20Commands/Metasploit/Meterpreter.md)
+  - [Metasploit – Msfvenom](Msfvenom.md)
+- [Minimodem](Cybersecurity/Tools%20&%20Commands/Minimodem/minimodem.md)
+- [Netcat & Socat](Netcat%20socat.md)
+- [Nmap – Reference Sheet](Cybersecurity/Tools%20&%20Commands/Nmap/Cheatsheet.md)
+- [PdfToText](pdftotext.md)
+- [Quipqiup](quipqiup.md)
+- [ReGripper/ReLookup](regripper_reglookup.md)
+- [Sleuthkit & Autopsy](sleuthkit.md)
+- [Spectogram](Cybersecurity/Tools%20&%20Commands/Spectogram/spectogram.md)
+- [SSH (Secure Shell)](SSH.md)
+- [Steganography](Steganography%20checklist.md)
+  - [StegOnline](Stegsnow_steghide.md)
+  - [Stegsnow & Steghide](Steganography%20checklist.md)
+  - [Zsteg](Zsteg.md)
+- [Wireshark](Cybersecurity/Tools%20&%20Commands/Wireshark/Wireshark.md)
 
 ---
 
 ### Web Exploitation
 - [CSRF](./Web%20Exploitation/CSRF/csrf.md)
 - [File Upload Vulnerabilities](./Web%20Exploitation/File%20Uploads/)
-  - [File Upload Cheatsheet](./Web%20Exploitation/File%20Uploads/file%20upload%20cheatsheet.md)
-  - [File Upload Types](./Web%20Exploitation/File%20Uploads/file%20upload%20types.md)
+  - [File Upload Cheatsheet](Cybersecurity/Web%20Exploitation/File%20Uploads/Cheatsheet.md)
+  - [File Upload Types](Cybersecurity/Web%20Exploitation/File%20Uploads/Reference.md)
 - [IDOR](./Web%20Exploitation/IDOR/idor.md)
-- [SQL Injection](./Web%20Exploitation/SQLi/injection%20methods.md)
-  - [Cheat Sheet](./Web%20Exploitation/SQLi/cheat%20sheet.md)
-  - [SQLmap](./Web%20Exploitation/SQLi/sqlmap.md)
+- [SQL Injection](Cybersecurity/Web%20Exploitation/SQLi/Injection%20methods.md)
+  - [Cheat Sheet](Cybersecurity/Web%20Exploitation/SQLi/Cheat%20sheet.md)
+  - [SQLmap](Cybersecurity/Web%20Exploitation/SQLi/SQLmap.md)
 - [SSTI (Server-Side Template Injection)](./Web%20Exploitation/SSTI/)
-  - [SSTI Overview](./Web%20Exploitation/SSTI/ssti.md)
-  - [SSTI Cheatsheet](./Web%20Exploitation/SSTI/ssti_cheatsheet.md)
+  - [SSTI Overview](SSTI.md)
+  - [SSTI Cheatsheet](SSTI_cheatsheet.md)
 - [Web Tools for Exploitation](./Web%20Exploitation/Web%20Tools/web%20exploitation%20tools.md)
 - [Web Tools for Reconnaissance](./Web%20Exploitation/Web%20Tools/web%20recon%20tools.md)
-- [XSS: Cross-Site Scripting](./Web%20Exploitation/XSS/xss%20overview.md)
-  - [XSS: Cross-Site Scripting](./Web%20Exploitation/XSS/xss%20types.md)
-  - [XSS: Cross-Site Scripting - Cheat Sheet](./Web%20Exploitation/File%20Uploads/file%20upload%20cheatsheet.md)
+- [XSS: Cross-Site Scripting](XSS%20Overview.md)
+  - [XSS: Cross-Site Scripting](XSS%20Types.md)
+  - [XSS: Cross-Site Scripting - Cheat Sheet](Cybersecurity/Web%20Exploitation/File%20Uploads/Cheatsheet.md)
 
 <!-- ---
 ### Active Directory (TBD)
@@ -91,14 +92,14 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 ---
 
 ### Reconnaissance
-- [System Enumeration](./Reconnaissance/System/system%20enumeration.md)
-- [Terminal Reconnaissance](./Reconnaissance/Terminal/terminal%20reconnaissance.md)
+- [System Enumeration](Cybersecurity/Reconnaissance/System/System%20enumeration.md)
+- [Terminal Reconnaissance](Cybersecurity/Reconnaissance/Terminal/Terminal%20reconnaissance.md)
 
 ---
 
 ### Privilege Escalation
-- [Linux Privilege Escalation](./Privilege%20Escalation/Linux/linux%20privesc.md)
-- [Windows Privilege Escalation](./Privilege%20Escalation/Windows/windows%20privesc.md)
+- [Linux Privilege Escalation](Linux%20privesc.md)
+- [Windows Privilege Escalation](Windows%20privesc.md)
 
 ---
 

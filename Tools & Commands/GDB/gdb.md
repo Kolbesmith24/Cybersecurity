@@ -131,7 +131,7 @@ Below is a comprehensive list of common GDB actions and commands:
 - **gdb <executable_file> <core_file>**: Start GDB with a core dump file.
 
 ### Breakpoints and Execution Control
-- **break <location>**: Set a breakpoint at a specified location (line number or function name).
+- break <location>: Set a breakpoint at a specified location (line number or function name).
 - **run**: Start the program under GDB.
 - **continue**: Resume execution until the next breakpoint.
 - **next**: Step over the current line of code.

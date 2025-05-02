@@ -1,7 +1,4 @@
 # FFUF - Fuzz Faster U Fool
-
-FFUF is a fast and efficient tool for web application fuzzing, commonly used to identify hidden files, directories, parameters, and vulnerabilities, such as Local File Inclusion (LFI). This guide outlines how to use FFUF to test for LFI vulnerabilities.
-
 ## Testing for Local File Inclusion (LFI)
 
 Local File Inclusion (LFI) vulnerabilities occur when an attacker can manipulate a web application to include local files from the server's file system. These vulnerabilities can lead to information disclosure, remote code execution, or other security issues.

