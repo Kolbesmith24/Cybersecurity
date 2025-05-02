@@ -35,7 +35,7 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 
 ### Tools & Commands
 - [Burp Suite](Burp%20Suite.md)
-- [Curl](Cybersecurity/Tools%20&%20Commands/Curl/curl.md)
+- [Curl](/Tools%20&%20Commands/Curl/curl.md)
 - [Chunkalate](Cybersecurity/Tools%20&%20Commands/Chunkalate/Chunkalate.md)
 - [Docker – Starting Files](docker.md)
 - [FFUF](FFUF.md)
