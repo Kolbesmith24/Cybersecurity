@@ -34,7 +34,6 @@ This repository documents everything I'm learning on my journey to becoming a pe
 - [Curl](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Curl/Curl.md)
 - [FFUF](/Offensive%20Security%20Techniques/Tools%20&%20Commands/FFUF/FFUF.md)
 - [Gobuster](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Gobuster/Gobuster.md)
-- [Hydra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Hydra/Hydra.md)
 - [Metasploit – Overview](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Metasploit/Overview.md)
   - [Metasploit – Exploitation](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Metasploit/Exploitation.md)
   - [Metasploit – Meterpreter](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Metasploit/Meterpreter.md)
@@ -43,34 +42,32 @@ This repository documents everything I'm learning on my journey to becoming a pe
 - [SSH (Secure Shell)](/Offensive%20Security%20Techniques/Tools%20&%20Commands/SSH/SSH.md)
 #### Pwn
 - [Checksec](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Checksec/Checksec.md)
-- [Chunkalate](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Chunkalate/Chunkalate.md)
 - [GDB](/Offensive%20Security%20Techniques/Tools%20&%20Commands/GDB/)
+- [Ghidra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Ghidra/Ghidra.md)
 - [Pwndbg](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pwndbg/pwndbg.md)
 - [Pwntools](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pwntools/Pwntools.md)
-- [Ghidra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Ghidra/Ghidra.md)
 #### Reverse Engineering
-- [Ghidra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Ghidra/Ghidra.md)
 - [GDB](/Offensive%20Security%20Techniques/Tools%20&%20Commands/GDB/)
+- [Ghidra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Ghidra/Ghidra.md)
 - [Pwndbg](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pwndbg/pwndbg.md)
 - [Pwntools](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pwntools/Pwntools.md)
-- [Chunkalate](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Chunkalate/Chunkalate.md)
 #### Forensics
 - [PdfToText](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pdftotext/pdftotext.md)
 - [ReGripper/ReLookup](/Offensive%20Security%20Techniques/Tools%20&%20Commands/RegRipper%20&%20RegLookup/regripper_reglookup.md)
 - [Sleuthkit & Autopsy](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Sleuthkit/sleuthkit.md)
 - [Wireshark](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Wireshark/Wireshark.md)
-- [SSH (Secure Shell)](/Offensive%20Security%20Techniques/Tools%20&%20Commands/SSH/SSH.md)
 #### Crypto
-- [John The Ripper](/Offensive%20Security%20Techniques/Tools%20&%20Commands/John%20The%20Ripper/john.md)
 - [Hydra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Hydra/Hydra.md)
+- [John The Ripper](/Offensive%20Security%20Techniques/Tools%20&%20Commands/John%20The%20Ripper/john.md)
 - [Quipqiup](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Quipqiup/quipqiup.md)
-#### Steganography
+#### Steganography / Audio
+- [Chunkalate](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Chunkalate/Chunkalate.md)
+- [Minimodem](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Minimodem/minimodem.md)
 - [Steganography](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Steganography/)
   - [Steganography Checklist](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Steganography/Steganography%20checklist.md)
   - [Stegsnow & Steghide](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Steganography/Stegsnow_steghide.md)
   - [Zsteg](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Steganography/Zsteg.md)
 - [Spectogram](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Spectogram/spectogram.md)
-- [Minimodem](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Minimodem/minimodem.md)
 #### OSINT / Reconnaissance
 - [Nmap – Cheatsheet](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Nmap/Cheatsheet.md)
 - [System Enumeration](/Offensive%20Security%20Techniques/Reconnaissance/System/System%20enumeration.md)
