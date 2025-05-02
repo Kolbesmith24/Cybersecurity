@@ -1,30 +1,31 @@
 # Flag Command - HTB Challenge Writeup
 ## Reconnaissance / Information Gathering
 We first receive the Host information: `83.136.255.10:55943`
-![[Pasted image 20250502073519.png]]
+![Pasted image 20250502073519](Pasted%20image%2020250502073519.png)
+
 
 Putting this in our web browser, we are faced with a website that is telling a story about being in a alien forest. We are prompted to type 'start' to start our adventure:
-![[Pasted image 20250502073705.png]]
+![Pasted image 20250502073705](Pasted%20image%2020250502073705.png)
 
 Going through the adventure with the available adventure options, we die and have to start again:
-![[Pasted image 20250502073841.png]]
+![Pasted image 20250502073841](Pasted%20image%2020250502073841.png)
 
 We can view the main script for the game in the source code. Here we can find if the game displays 'HTB{', then we win the game:
-![[Pasted image 20250502074403.png]]
+![Pasted image 20250502074403](Pasted%20image%2020250502074403.png)
 
 When trying to put in other JavaScript commands, we are told we can't use other commands, and we must choose from the available options (which are displayed using the command 'help'):
-![[Pasted image 20250502075240.png]]
+![Pasted image 20250502075240](Pasted%20image%2020250502075240.png)
 
 Exploring different avenues, we can find a GET request being sent to '/api/options' in the Network tab of our developer's tool:
-![[Pasted image 20250502075512.png]]
+![Pasted image 20250502075512](Pasted%20image%2020250502075512.png)
 
 Going to this destination, we can find all the command options for when we start the game. At the bottom, we see the secret value:
-![[Pasted image 20250502075557.png]]
+![Pasted image 20250502075557](Pasted%20image%2020250502075557.png)
 Secret: `Blip-blop, in a pickle with a hiccup! Shmiggity-shmack`
 
 ## Exploitation
 We can start the game with 'start', then enter the 'secret' value into the command-line to get the flag:
-![[Pasted image 20250502075817.png]]
+![Pasted image 20250502075817](Pasted%20image%2020250502075817.png)
 
 # Automation with Python
 We can write the following script to automate the process of retrieving the secret value, starting the game, and importing the secret command and exporting the flag:
@@ -71,4 +72,4 @@ print(flag)
 - Lastly, we extract the response from the server and filter out the flag to only respond with the value of the flag
 
 Running the script we get the following:
-![[Pasted image 20250502090111.png]]
+![Pasted image 20250502090111](Pasted%20image%2020250502090111.png)
