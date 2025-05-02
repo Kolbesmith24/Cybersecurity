@@ -91,7 +91,7 @@ This repository documents everything I'm learning on my journey to becoming a pe
 - [XSS - Cross-Site Scripting](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/XSS%20-%20Cross-Site%20Scripting/)
 
 ---
-### **Reconnaissance Techniques**
+### **Reconnaissance**
 - [System Enumeration](/Offensive%20Security%20Techniques/Reconnaissance/System/System%20enumeration.md)
 - [Terminal Reconnaissance](/Offensive%20Security%20Techniques/Reconnaissance/Terminal/Terminal%20reconnaissance.md)
 
