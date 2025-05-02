@@ -1,6 +1,6 @@
 # Cybersecurity Notes
 
-Welcome to my cybersecurity notes repository! 
+Welcome to my personal cybersecurity notes repository! 
 
 This repo documents everything I'm learning on my journey to becoming a penetration tester — from certifications and CTFs to tools, attack techniques, and red team methodologies.
 
