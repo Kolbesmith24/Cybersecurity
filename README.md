@@ -21,7 +21,7 @@ This repository documents everything I'm learning on my journey to becoming a pe
 - [TryHackMe Challenges](./Labs%20&%20Writeups/TryHackMe/Challenges/)
 #### CTF Competitions
 - [picoCTF 2024](./CTF%20Competitions/picoCTF/)
-- [BearcatCTF 2024](/CTF%20Competitions/BearcatCTF%2024/)
+- [BearcatCTF 2024](/CTF%20Competitions/BearcatCTF%202024/)
 - [DawgCTF 2025](./CTF%20Competitions/DawgCTF%202025/)
 - [UMDCTF 2025](./CTF%20Competitions/UMDCTF%202025/)
 - [Midnight Sun CTF 2025](./CTF%20Competitions/Midnight%20Sun%202025/)
