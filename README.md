@@ -26,11 +26,9 @@ This repository documents everything I'm learning on my journey to becoming a pe
 - [UMDCTF 2025](./CTF%20Competitions/UMDCTF%202025/)
 - [Midnight Sun CTF 2025](./CTF%20Competitions/Midnight%20Sun%20CTF%202025/)
 
----
-___
 ***
 ## Offensive Security Techniques
-### Tools & Commands
+### **Tools & Commands**
 #### Web
 - [Burp Suite](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Burp%20Suite/Burp%20Suite.md)
 - [Curl](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Curl/Curl.md)
@@ -78,7 +76,9 @@ ___
 - [System Enumeration](/Offensive%20Security%20Techniques/Reconnaissance/System/System%20enumeration.md)
 - [Terminal Reconnaissance](/Offensive%20Security%20Techniques/Reconnaissance/Terminal/Terminal%20reconnaissance.md)
 - [Wireshark](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Wireshark/Wireshark.md)
-### Web Exploitation Techniques
+
+---
+### **Web Exploitation Techniques**
 - [Access Control Vulnerabilities](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Access%20Control%20Vulnerabilities/)
 - [Authentication Bypass](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Authentication%20Bypass/)
 - [Command Injection](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Command%20Injection/)
@@ -92,10 +92,14 @@ ___
 - [SSTI - Server Side Template Injection](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/SSTI%20-%20Server%20Side%20Template%20Injection/)
 - [XML Injection](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/XML%20Injection/)
 - [XSS - Cross-Site Scripting](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/XSS%20-%20Cross-Site%20Scripting/)
-### Reconnaissance Techniques
+
+---
+### **Reconnaissance Techniques**
 - [System Enumeration](/Offensive%20Security%20Techniques/Reconnaissance/System/System%20enumeration.md)
 - [Terminal Reconnaissance](/Offensive%20Security%20Techniques/Reconnaissance/Terminal/Terminal%20reconnaissance.md)
-### Privilege Escalation
+
+---
+### **Privilege Escalation**
 - [Linux Privilege Escalation](/Offensive%20Security%20Techniques/Privilege%20Escalation/Linux%20Privesc.md)
 - [Windows Privilege Escalation](/Offensive%20Security%20Techniques/Privilege%20Escalation/Windows%20Privesc.md)
 
