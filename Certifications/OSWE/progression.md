@@ -70,7 +70,7 @@ Follow my progression as I post writeups for each box I complete [here](/Writeup
 ---
 ## HTB Web Challenges for OSWE/CTFs:
 ### 🟢 Easy
-- [ ] **Flag Command** – Command injection vulnerability.
+- [x] **Flag Command** – Command injection vulnerability.
 - [ ] **Trapped Source (VIP)** – Bug discovered through source code review.
 - [ ] **Jailbreak (VIP)** – Sandbox escape and logic flaws.
 - [ ] **Templated (VIP)** – Template injection vulnerability.
