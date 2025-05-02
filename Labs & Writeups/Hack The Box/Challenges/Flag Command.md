@@ -2,7 +2,7 @@
 ## Reconnaissance / Information Gathering
 We first receive the Host information: `83.136.255.10:55943`
 
-![image](https://github.com/user-attachments/assets/ec065050-9282-4ba5-bd7e-7d46b1f85283)
+![image](https://github.com/user-attachments/assets/53a152be-5c0a-4f96-89bd-f4bc7efbc55c)
 
 
 Putting this in our web browser, we are faced with a website that is telling a story about being in a alien forest. We are prompted to type 'start' to start our adventure:
