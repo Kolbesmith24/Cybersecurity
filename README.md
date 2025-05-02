@@ -5,7 +5,7 @@ Welcome to my personal cybersecurity notes repository!
 This repository documents everything I'm learning on my journey to becoming a penetration tester — from certifications and CTFs to tools, attack techniques, and red team methodologies.
 
 # Table of Contents
----
+-----
 ## Certifications
 - [Security+](./Certifications/Security+/)
 - [OSCP Progress](./Certifications/OSCP/)
@@ -27,6 +27,8 @@ This repository documents everything I'm learning on my journey to becoming a pe
 - [Midnight Sun CTF 2025](./CTF%20Competitions/Midnight%20Sun%20CTF%202025/)
 
 ---
+___
+***
 ## Offensive Security Techniques
 ### Tools & Commands
 #### Web
@@ -76,7 +78,7 @@ This repository documents everything I'm learning on my journey to becoming a pe
 - [System Enumeration](/Offensive%20Security%20Techniques/Reconnaissance/System/System%20enumeration.md)
 - [Terminal Reconnaissance](/Offensive%20Security%20Techniques/Reconnaissance/Terminal/Terminal%20reconnaissance.md)
 - [Wireshark](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Wireshark/Wireshark.md)
-### **Web Exploitation Techniques**
+### Web Exploitation Techniques
 - [Access Control Vulnerabilities](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Access%20Control%20Vulnerabilities/)
 - [Authentication Bypass](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Authentication%20Bypass/)
 - [Command Injection](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Command%20Injection/)
