@@ -1,6 +1,7 @@
 # Flag Command - HTB Challenge Writeup
 ## Reconnaissance / Information Gathering
 We first receive the Host information: `83.136.255.10:55943`
+
 ![Pasted image 20250502073519](Pasted%20image%2020250502073519.png)
 
 
