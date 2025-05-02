@@ -53,7 +53,7 @@ This repository documents everything I'm learning on my journey to becoming a pe
 - [GDB](/Offensive%20Security%20Techniques/Tools%20&%20Commands/GDB/)
 - [Pwndbg](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pwndbg/pwndbg.md)
 - [Pwntools](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pwntools/Pwntools.md)
-- [Chunkalate](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Chunkalate/chunkalate.md)
+- [Chunkalate](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Chunkalate/Chunkalate.md)
 ##### Forensics
 - [PdfToText](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pdftotext/pdftotext.md)
 - [ReGripper/ReLookup](/Offensive%20Security%20Techniques/Tools%20&%20Commands/RegRipper%20&%20RegLookup/regripper_reglookup.md)
@@ -71,11 +71,11 @@ This repository documents everything I'm learning on my journey to becoming a pe
   - [Zsteg](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Steganography/Zsteg.md)
 - [Spectogram](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Spectogram/spectogram.md)
 - [Minimodem](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Minimodem/minimodem.md)
-##### OSINT
-- [Hydra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Hydra/Hydra.md)
-- [Nmap – Reference Sheet](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Nmap/Cheatsheet.md)
+##### OSINT / Reconnaissance
+- [Nmap – Cheatsheet](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Nmap/Cheatsheet.md)
+- [System Enumeration](/Offensive%20Security%20Techniques/Reconnaissance/System/System%20enumeration.md)
+- [Terminal Reconnaissance](/Offensive%20Security%20Techniques/Reconnaissance/Terminal/Terminal%20reconnaissance.md)
 - [Wireshark](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Wireshark/Wireshark.md)
-
 #### Web Exploitation Techniques
 - [Access Control Vulnerabilities](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Access%20Control%20Vulnerabilities/)
 - [Authentication Bypass](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Authentication%20Bypass/)
