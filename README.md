@@ -2,28 +2,23 @@
 
 Welcome to my personal cybersecurity notes repository! 
 
-This repo documents everything I'm learning on my journey to becoming a penetration tester — from certifications and CTFs to tools, attack techniques, and red team methodologies.
-
+This repository documents everything I'm learning on my journey to becoming a penetration tester — from certifications and CTFs to tools, attack techniques, and red team methodologies.
 
 ## Table of Contents
 ---
-
 ### Certifications
 - [Security+](./Certifications/Security+/)
 - [OSCP Progress](./Certifications/OSCP/)
 - [OSWE Progress](./Certifications/OSWE/)
 
 ---
-
 ### Labs & Competitions (Writeups)
 #### Hack The Box
 - [Hack The Box - Boxes](./Labs%20&%20Writeups/Hack%20The%20Box/Boxes/)
 - [Hack The Box - Challenges](./Labs%20&%20Writeups/Hack%20The%20Box/Challenges/)
-
 #### TryHackMe
 - [TryHackMe Account](./Labs%20&%20Writeups/TryHackMe/my%20account.md)
 - [TryHackMe Challenges](./Labs%20&%20Writeups/TryHackMe/Challenges/)
-
 #### CTF Competitions
 - [picoCTF 2024](./CTF%20Competitions/picoCTF/)
 - [BearcatCTF 2024](/CTF%20Competitions/BearcatCTF%2024/)
@@ -32,76 +27,77 @@ This repo documents everything I'm learning on my journey to becoming a penetrat
 - [Midnight Sun CTF 2025](./CTF%20Competitions/Midnight%20Sun%202025/)
 
 ---
+### Offensive Security Techniques
+#### Tools & Commands
+##### Web
+- [Burp Suite](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Burp%20Suite/burp%20suite.md)
+- [Curl](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Curl/curl.md)
+- [FFUF](/Offensive%20Security%20Techniques/Tools%20&%20Commands/FFUF/ffuf.md)
+- [Gobuster](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Gobuster/Gobuster.md)
+- [Hydra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Hydra/Hydra.md)
+- [Metasploit – Overview](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Metasploit/Overview.md)
+- [Metasploit – Exploitation](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Metasploit/Exploitation.md)
+- [Metasploit – Meterpreter](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Metasploit/Meterpreter.md)
+- [Metasploit – Msfvenom](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Metasploit/Msfvenom.md)
+- [Nmap – Reference Sheet](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Nmap/Cheatsheet.md)
+- [SSH (Secure Shell)](/Offensive%20Security%20Techniques/Tools%20&%20Commands/SSH/SSH.md)
+##### Pwn
+- [Checksec](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Checksec/Checksec.md)
+- [Chunkalate](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Chunkalate/chunkalate.md)
+- [GDB](/Offensive%20Security%20Techniques/Tools%20&%20Commands/GDB/)
+- [Pwndbg](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pwndbg/pwndbg.md)
+- [Pwntools](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pwntools/Pwntools.md)
+- [Ghidra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Ghidra/Ghidra.md)
+- [Metasploit – Msfvenom](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Metasploit/Msfvenom.md)
+##### Reverse Engineering
+- [Ghidra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Ghidra/Ghidra.md)
+- [GDB](/Offensive%20Security%20Techniques/Tools%20&%20Commands/GDB/)
+- [Pwndbg](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pwndbg/pwndbg.md)
+- [Pwntools](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pwntools/Pwntools.md)
+- [Chunkalate](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Chunkalate/chunkalate.md)
+##### Forensics
+- [PdfToText](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Pdftotext/pdftotext.md)
+- [ReGripper/ReLookup](/Offensive%20Security%20Techniques/Tools%20&%20Commands/RegRipper%20&%20RegLookup/regripper_reglookup.md)
+- [Sleuthkit & Autopsy](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Sleuthkit/sleuthkit.md)
+- [Wireshark](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Wireshark/Wireshark.md)
+- [SSH (Secure Shell)](/Offensive%20Security%20Techniques/Tools%20&%20Commands/SSH/SSH.md)
+##### Crypto
+- [John The Ripper](/Offensive%20Security%20Techniques/Tools%20&%20Commands/John%20The%20Ripper/john.md)
+- [Hydra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Hydra/Hydra.md)
+- [Quipqiup](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Quipqiup/quipqiup.md)
+##### Steganography
+- [Steganography](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Steganography/)
+  - [Steganography Checklist](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Steganography/Steganography%20checklist.md)
+  - [Stegsnow & Steghide](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Steganography/Stegsnow_steghide.md)
+  - [Zsteg](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Steganography/Zsteg.md)
+- [Spectogram](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Spectogram/spectogram.md)
+- [Minimodem](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Minimodem/minimodem.md)
+##### OSINT
+- [Hydra](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Hydra/Hydra.md)
+- [Nmap – Reference Sheet](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Nmap/Cheatsheet.md)
+- [Wireshark](/Offensive%20Security%20Techniques/Tools%20&%20Commands/Wireshark/Wireshark.md)
 
-### Tools & Commands
-- [Burp Suite](/Tools%20&%20Commands/Burp%20Suite/Burp%20Suite.md)
-- [Curl](/Tools%20&%20Commands/Curl/Curl.md)
-- [Checksec](/Tools%20&%20Commands/Checksec/Checksec.md)
-- [Chunkalate](/Tools%20&%20Commands/Chunkalate/Chunkalate.md)
-- [Docker Files](/Tools%20&%20Commands/Docker/Docker%20Files.md)
-- [FFUF](/Tools%20&%20Commands/FFUF/FFUF.md)
-- [GDB](/Tools%20&%20Commands/GDB/)
-- [Ghidra](/Tools%20&%20Commands/Ghidra/Ghidra.md)
-- [Gobuster](Gobuster.md)
-- [Hping](hping.md)
-- [Hydra](Cybersecurity/Tools%20&%20Commands/Hydra/Hydra.md)
-- [John The Ripper](john.md)
-- [Metasploit – Overview](Overview.md)
-  - [Metasploit – Exploitation](Cybersecurity/Tools%20&%20Commands/Metasploit/Exploitation.md)
-  - [Metasploit – Meterpreter](Cybersecurity/Tools%20&%20Commands/Metasploit/Meterpreter.md)
-  - [Metasploit – Msfvenom](Msfvenom.md)
-- [Minimodem](Cybersecurity/Tools%20&%20Commands/Minimodem/minimodem.md)
-- [Netcat & Socat](Netcat%20socat.md)
-- [Nmap – Reference Sheet](Cybersecurity/Tools%20&%20Commands/Nmap/Cheatsheet.md)
-- [PdfToText](pdftotext.md)
-- [Quipqiup](quipqiup.md)
-- [ReGripper/ReLookup](regripper_reglookup.md)
-- [Sleuthkit & Autopsy](sleuthkit.md)
-- [Spectogram](Cybersecurity/Tools%20&%20Commands/Spectogram/spectogram.md)
-- [SSH (Secure Shell)](SSH.md)
-- [Steganography](Steganography%20checklist.md)
-  - [StegOnline](Stegsnow_steghide.md)
-  - [Stegsnow & Steghide](Steganography%20checklist.md)
-  - [Zsteg](Zsteg.md)
-- [Wireshark](Cybersecurity/Tools%20&%20Commands/Wireshark/Wireshark.md)
-
----
-
-### Web Exploitation
-- [CSRF](./Web%20Exploitation/CSRF/csrf.md)
-- [File Upload Vulnerabilities](./Web%20Exploitation/File%20Uploads/)
-  - [File Upload Cheatsheet](Cybersecurity/Web%20Exploitation/File%20Uploads/Cheatsheet.md)
-  - [File Upload Types](Cybersecurity/Web%20Exploitation/File%20Uploads/Reference.md)
-- [IDOR](./Web%20Exploitation/IDOR/idor.md)
-- [SQL Injection](Cybersecurity/Web%20Exploitation/SQLi/Injection%20methods.md)
-  - [Cheat Sheet](Cybersecurity/Web%20Exploitation/SQLi/Cheat%20sheet.md)
-  - [SQLmap](Cybersecurity/Web%20Exploitation/SQLi/SQLmap.md)
-- [SSTI (Server-Side Template Injection)](./Web%20Exploitation/SSTI/)
-  - [SSTI Overview](SSTI.md)
-  - [SSTI Cheatsheet](SSTI_cheatsheet.md)
-- [Web Tools for Exploitation](./Web%20Exploitation/Web%20Tools/web%20exploitation%20tools.md)
-- [Web Tools for Reconnaissance](./Web%20Exploitation/Web%20Tools/web%20recon%20tools.md)
-- [XSS: Cross-Site Scripting](XSS%20Overview.md)
-  - [XSS: Cross-Site Scripting](XSS%20Types.md)
-  - [XSS: Cross-Site Scripting - Cheat Sheet](Cybersecurity/Web%20Exploitation/File%20Uploads/Cheatsheet.md)
-
-<!-- ---
-### Active Directory (TBD)
-- [LDAP Basics](./Active%20Directory/LDAP/ldap_basics.md)
-- [Kerberos Attacks](./Active%20Directory/Kerberos/kerberos_attacks.md)
-- [BloodHound](./Active%20Directory/BloodHound/bloodhound.md) -->
-
----
-
-### Reconnaissance
-- [System Enumeration](Cybersecurity/Reconnaissance/System/System%20enumeration.md)
-- [Terminal Reconnaissance](Cybersecurity/Reconnaissance/Terminal/Terminal%20reconnaissance.md)
-
----
-
-### Privilege Escalation
-- [Linux Privilege Escalation](Linux%20privesc.md)
-- [Windows Privilege Escalation](Windows%20privesc.md)
+#### Web Exploitation Techniques
+- [Access Control Vulnerabilities](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Access%20Control%20Vulnerabilities/)
+- [Authentication Bypass](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Authentication%20Bypass/)
+- [Command Injection](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Command%20Injection/)
+- [CSRF - Cross Site Request Forgery](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/CSRF%20-%20Cross%20Site%20Request%20Forgery/)
+- [File Upload Vulnerabilities](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/File%20Upload%20Vulnerabilities/)
+- [General Web Tools](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/General%20Web%20Tools/)
+- [HTTP Request Smuggling](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/HTTP%20Request%20Smuggling/)
+- [IDOR - Insecure Direct Object Reference](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/IDOR%20-%20Insecure%20Direct%20Object%20Reference/)
+- [Path Traversal](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/Path%20Traversal/)
+- [SQL Injection](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/SQL%20Injection/)
+- [SSRF - Server Side Request Forgery](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/SSRF%20-%20Server%20Side%20Request%20Forgery/)
+- [SSTI - Server Side Template Injection](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/SSTI%20-%20Server%20Side%20Template%20Injection/)
+- [XML Injection](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/XML%20Injection/)
+- [XSS - Cross-Site Scripting](/Offensive%20Security%20Techniques/Web%20Exploitation%20Techniques/XSS%20-%20Cross-Site%20Scripting/)
+#### Reconnaissance Techniques
+- [System Enumeration](/Offensive%20Security%20Techniques/Reconnaissance/System/System%20enumeration.md)
+- [Terminal Reconnaissance](/Offensive%20Security%20Techniques/Reconnaissance/Terminal/Terminal%20reconnaissance.md)
+#### Privilege Escalation
+- [Linux Privilege Escalation](/Offensive%20Security%20Techniques/Privilege%20Escalation/Linux%20privesc.md)
+- [Windows Privilege Escalation](/Offensive%20Security%20Techniques/Privilege%20Escalation/Windows%20privesc.md)
 
 ---
 
