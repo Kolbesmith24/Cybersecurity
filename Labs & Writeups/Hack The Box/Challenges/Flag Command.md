@@ -6,16 +6,32 @@ We first receive the Host information: `83.136.255.10:55943`
 
 
 Putting this in our web browser, we are faced with a website that is telling a story about being in a alien forest. We are prompted to type 'start' to start our adventure:
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 ![image](https://github.com/user-attachments/assets/62294dbc-1a3f-48b3-a588-9aa4ac008721)
 
 Going through the adventure with the available adventure options, we die and have to start again:
 ![image](https://github.com/user-attachments/assets/15f0d537-80de-459c-8615-7aa3a96ba5fe)
+<<<<<<< HEAD
 
 We can view the main script for the game in the source code. Here we can find if the game displays 'HTB{', then we win the game:
 ![Pasted image 20250502074403](Screenshots/Pasted%20image%2020250502074403.png)
 
 When trying to put in other JavaScript commands, we are told we can't use other commands, and we must choose from the available options (which are displayed using the command 'help'):
 ![image](https://github.com/user-attachments/assets/eeeb825e-57d4-40bf-a881-794b9be9a769)
+=======
+
+
+We can view the main script for the game in the source code. Here we can find if the game displays 'HTB{', then we win the game:
+![image](https://github.com/user-attachments/assets/37d55b62-5241-41a1-a978-39fdcd169813)
+
+
+When trying to put in other JavaScript commands, we are told we can't use other commands, and we must choose from the available options (which are displayed using the command 'help'):
+![image](https://github.com/user-attachments/assets/eeeb825e-57d4-40bf-a881-794b9be9a769)
+
+>>>>>>> origin/main
 
 Exploring different avenues, we can find a GET request being sent to '/api/options' in the Network tab of our developer's tool:
 ![image](https://github.com/user-attachments/assets/8aebd1df-a675-4341-8e87-d8167b18f7d9)
@@ -77,3 +93,7 @@ print(flag)
 
 Running the script we get the following:
 ![image](https://github.com/user-attachments/assets/fb692b67-56a1-41e6-bc1d-ac9a74ebdad6)
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main

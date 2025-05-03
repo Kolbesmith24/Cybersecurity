@@ -71,34 +71,42 @@ Follow my progression as I post writeups for each box I complete [here](/Writeup
 ## HTB Web Challenges for OSWE/CTFs:
 ### 🟢 Easy
 - [x] **Flag Command** – Command injection vulnerability.
-- [ ] **Trapped Source (VIP)** – Bug discovered through source code review.
-- [ ] **Jailbreak (VIP)** – Sandbox escape and logic flaws.
-- [ ] **Templated (VIP)** – Template injection vulnerability.
-- [ ] **baby auth (VIP)** – Authentication bypass issue.
-- [ ] **baby nginxatsu (VIP)** – Path traversal and filter bypass.
-- [ ] **baby todo or not todo (VIP)** – Business logic flaws.
-- [ ] **HTBank (VIP)** – Authentication bypass combined with logic issues.
-- [ ] **ProxyAsAService (VIP)** – SSRF vulnerability and potential HTTP smuggling.
-- [ ] **emoji voting (VIP)** – Vote manipulation through logic flaws.
-- [ ] **CurlAsAService (VIP)** – SSRF vulnerability.
-- [ ] **ApacheBlaze (VIP)** – Apache misconfigurations and SSRF vulnerabilities.
+- [ ] **POP Restaurant** – PHP Object Injection
+- [ ] **PDFy** – SSRF
+- [ ] **Insomnia** – Authentication Bypass via Source Code Analysis
+- [ ] **Trapped Source ** – Bug discovered through source code review.
+- [ ] **Jailbreak ** – Sandbox escape and logic flaws.
+- [ ] **Templated ** – Template injection vulnerability.
+- [ ] **baby auth ** – Authentication bypass issue.
+- [ ] **baby nginxatsu ** – Path traversal and filter bypass.
+- [ ] **baby todo or not todo ** – Business logic flaws.
+- [ ] **HTBank ** – Authentication bypass combined with logic issues.
+- [ ] **ProxyAsAService ** – SSRF vulnerability and potential HTTP smuggling.
+- [ ] **emoji voting ** – Vote manipulation through logic flaws.
+- [ ] **CurlAsAService ** – SSRF vulnerability.
+- [ ] **ApacheBlaze ** – Apache misconfigurations and SSRF vulnerabilities.
 ### 🟡 Medium
-- [ ] **SerialFlow (VIP)** – Insecure deserialization vulnerability.
-- [ ] **Stylish (VIP)** – JavaScript or template injection vulnerability.
-- [ ] **WS-Todo (VIP)** – Business logic flaw.
-- [ ] **GrandMonty (VIP)** – Known box with complex logic issues.
-- [ ] **baby sql (VIP)** – SQL injection, particularly blind SQLi.
-- [ ] **nginxatsu (VIP)** – Path traversal and filter bypass.
-- [ ] **breaking grad (VIP)** – Exploit chaining involving multiple vulnerabilities.
-- [ ] **wafwaf (VIP)** – WAF bypass combined with injection.
-- [ ] **interdimensional internet (VIP)** – Chained logic bypass vulnerabilities.
-- [ ] **pcalc (VIP)** – Expression evaluation leading to RCE.
-- [ ] **baby website rick (VIP)** – Logic flaws and chaining vulnerabilities.
+- [ ] **POP Restaurant** – PHP Object Injection
+- [ ] **PDFy** – Server-Side Request Forgery
+- [ ] **Insomnia** – Authentication Bypass via Source Code Analysis
+- [ ] **SerialFlow** – Insecure deserialization vulnerability.
+- [ ] **Stylish** – JavaScript or template injection vulnerability.
+- [ ] **WS-Todo** – Business logic flaw.
+- [ ] **GrandMonty** – Known box with complex logic issues.
+- [ ] **baby sql** – SQL injection, particularly blind SQLi.
+- [ ] **nginxatsu** – Path traversal and filter bypass.
+- [ ] **breaking grad** – Exploit chaining involving multiple vulnerabilities.
+- [ ] **wafwaf** – WAF bypass combined with injection.
+- [ ] **interdimensional internet ** – Chained logic bypass vulnerabilities.
+- [ ] **pcalc** – Expression evaluation leading to RCE.
+- [ ] **baby website rick** – Logic flaws and chaining vulnerabilities.
 ### 🟠 Hard
 - [ ] **Pod Diagnostics** – Complex chained vulnerabilities.
 - [ ] **ArtificialUniversity** – Source code review and bypass chaining.
-- [ ] **BoneChewerCon (VIP)** – Multiple OSWE-style logic flaws.
-- [ ] **ImageTok (VIP)** – File upload vulnerability combined with deserialization.
+- [ ] **BoneChewerCon** – Multiple OSWE-style logic flaws.
+- [ ] **ImageTok** – File upload vulnerability combined with deserialization.
+### 🔴Insane
+- [ ] **ArtificialUniversity** – Advanced Web Exploitation
 
 ---
 ## HTB Boxes for OSWE/CTFs:
