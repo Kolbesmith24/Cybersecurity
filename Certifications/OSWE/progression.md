@@ -22,50 +22,49 @@ Follow my progression as I post writeups for each box I complete [here](/Writeup
 ---
 
 ## PortSwigger Academy Topics
-### **Server-Side Topics**
-- [x] **SQL Injection**
-- [ ] OS Command Injection
-- [x] File Path Traversal
-- [ ] Server-Side Request Forgery (SSRF)
-- [ ] Web Cache Poisoning
-- [ ] Server-Side Template Injection (SSTI)
-- [ ] Insecure Deserialization
+### Server-Side Topics
+- [ ] **Access control** 🔄
+- [ ]  **API testing**
+- [ ]  **Authentication**
+- [x]  **Command injection**
+- [ ]  **File upload vulnerabilities** 🔄
+- [ ]  **Information disclosure**
+- [ ]  **Server-side request forgery (SSRF)**
+- [x]  **SQL injection**
+- [ ]  **XXE injection**
+- [ ]  NoSQL injection
+- [ ]  Race conditions
+- [x]  **Path traversal**
+- [ ]  **Business logic vulnerabilities**
+- [ ]  _Web cache deception_
+### Client-Side Topics
+- [ ]  _Clickjacking_
+- [ ]  _Cross-origin resource sharing (CORS)_
+- [ ]  Cross-site request forgery (CSRF)
+- [ ]  _DOM-based vulnerabilities_
+- [ ]  Cross-site scripting (XSS) 🔄
+- [ ]  _WebSockets_
+### Advanced Topics
+- [ ]  _GraphQL API vulnerabilities_ 
+- [ ]  HTTP Host header attacks
+- [ ]  HTTP request smuggling 🔄
+- [ ]  **Insecure deserialization**
+- [ ]  JWT attacks
+- [ ]  OAuth authentication
+- [ ]  **Prototype pollution**
+- [ ]  **Server-side template injection** 🔄
+- [ ]  _Web cache poisoning_
+- [ ]  _Web LLM attacks_
 
-### Authentication & Access Control
-- [ ] Authentication vulnerabilities
-- [ ] Business logic vulnerabilities
-- [ ] Access control vulnerabilities
-- [ ] Account takeover vulnerabilities
-- [ ] OAuth authentication vulnerabilities
+_Note:_
+```
+Bolded = Higher Importance
+Nothing = Medium Importance
+Italisized = Low Importance
 
-### **Cross-Site Vulnerabilities**
-- [ ] Cross-Site Scripting (XSS)
-- [ ] Cross-Site Request Forgery (CSRF)
-- [ ] Cross-Origin Resource Sharing (CORS) misconfigurations
-- [ ] Clickjacking
-
-### **Platform Misconfigurations**
-- [ ] Information disclosure
-- [ ] File upload vulnerabilities
-- [ ] HTTP Host header attacks
-- [ ] WebSockets vulnerabilities
-- [x] HTTP request smuggling
-- [ ] JWT security issues
-
-### **Advanced Exploitation Techniques**
-- [ ] Race conditions
-- [ ] Prototype pollution
-- [ ] DOM-based vulnerabilities
-- [ ] Client-side deserialization
-- [ ] WebAssembly exploitation
-- [ ] Browser extension vulnerabilities
-
-### **Miscellaneous / Foundational Topics**
-- [ ] Introduction to Web Security
-- [ ] URL parsing inconsistencies
-- [ ] User interface-based vulnerabilities
-- [ ] Lab: Information gathering
-- [ ] Web app business logic exploitation
+Checked Box = Finished
+🔄 = In Progress 
+```
 
 ---
 ## HTB Web Challenges for OSWE/CTFs:
