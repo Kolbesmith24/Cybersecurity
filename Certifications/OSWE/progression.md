@@ -23,7 +23,7 @@ Follow my progression as I post writeups for each box I complete [here](/Writeup
 
 ## PortSwigger Academy Topics
 ### **Server-Side Topics**
-- [x] SQL Injection
+- [x] **SQL Injection**
 - [ ] OS Command Injection
 - [x] File Path Traversal
 - [ ] Server-Side Request Forgery (SSRF)
@@ -31,7 +31,7 @@ Follow my progression as I post writeups for each box I complete [here](/Writeup
 - [ ] Server-Side Template Injection (SSTI)
 - [ ] Insecure Deserialization
 
-### **Authentication & Access Control**
+### Authentication & Access Control
 - [ ] Authentication vulnerabilities
 - [ ] Business logic vulnerabilities
 - [ ] Access control vulnerabilities

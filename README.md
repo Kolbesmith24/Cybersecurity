@@ -94,6 +94,7 @@ This repository documents everything I'm learning on my journey to becoming a pe
 ### **Reconnaissance**
 - [System Enumeration](/Offensive%20Security%20Techniques/Reconnaissance/System/System%20enumeration.md)
 - [Terminal Reconnaissance](/Offensive%20Security%20Techniques/Reconnaissance/Terminal/Terminal%20reconnaissance.md)
+- [Google Dork Cheatsheet](/Offensive%20Security%20Techniques/Reconnaissance/Google%20Dorking/Cheatsheet.md)
 
 ---
 ### **Privilege Escalation**
