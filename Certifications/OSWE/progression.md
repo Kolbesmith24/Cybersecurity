@@ -71,7 +71,7 @@ Checked Box = Finished
 ### 🟢 Easy
 - [x] **Flag Command** – Command injection vulnerability.
 - [x] **Spookifier** - SSTI
-- [ ] **Pentest Notes**: SQLi → RCE
+- [x] **Pentest Notes**: SQLi → RCE
 - [ ] **Breathtaking View**: SSTI in Java → RCE
 - [ ] **Interstellar**: SQLi → Web shell (RCE)
 - [ ] **DoxPit**: SSRF and SSTI chain
