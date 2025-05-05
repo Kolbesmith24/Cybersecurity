@@ -54,6 +54,8 @@ import requests
 
 # Set target base URL and start a session
 base_url = 'http://83.136.255.10:55943'
+
+# Creat an HTTP session with requests library
 session = requests.Session()
 
 # Load the main page (initialize session)

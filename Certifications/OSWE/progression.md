@@ -70,26 +70,24 @@ Checked Box = Finished
 ## HTB Web Challenges for OSWE/CTFs:
 ### 🟢 Easy
 - [x] **Flag Command** – Command injection vulnerability.
+- [x] **Spookifier** - SSTI
+- [ ] **Pentest Notes**: SQLi → RCE
+- [ ] **Breathtaking View**: SSTI in Java → RCE
+- [ ] **Interstellar**: SQLi → Web shell (RCE)
+- [ ] **DoxPit**: SSRF and SSTI chain
+- [ ] **JerryTok**: Exploiting Tomcat (web app misconfig, leads to RCE)
 - [ ] **POP Restaurant** – PHP Object Injection
 - [ ] **PDFy** – SSRF
 - [ ] **Insomnia** – Authentication Bypass via Source Code Analysis
-- [ ] **Trapped Source ** – Bug discovered through source code review.
-- [ ] **Jailbreak ** – Sandbox escape and logic flaws.
-- [ ] **Templated ** – Template injection vulnerability.
-- [ ] **baby auth ** – Authentication bypass issue.
-- [ ] **baby nginxatsu ** – Path traversal and filter bypass.
-- [ ] **baby todo or not todo ** – Business logic flaws.
-- [ ] **HTBank ** – Authentication bypass combined with logic issues.
-- [ ] **ProxyAsAService ** – SSRF vulnerability and potential HTTP smuggling.
-- [ ] **emoji voting ** – Vote manipulation through logic flaws.
-- [ ] **CurlAsAService ** – SSRF vulnerability.
-- [ ] **ApacheBlaze ** – Apache misconfigurations and SSRF vulnerabilities.
+- [ ] **Trapped Source** – Bug discovered through source code review.
+- [ ] **Templated** – Template injection vulnerability.
+- [ ] **baby auth** – Authentication bypass issue.
+- [ ] **HTBank** – Authentication bypass combined with logic issues.
+- [ ] **ProxyAsAService** – SSRF vulnerability and potential HTTP smuggling.
+- [ ] **CurlAsAService** – SSRF vulnerability.
+- [ ] **ApacheBlaze** – Apache misconfigurations and SSRF vulnerabilities.
 ### 🟡 Medium
-- [ ] **POP Restaurant** – PHP Object Injection
-- [ ] **PDFy** – Server-Side Request Forgery
-- [ ] **Insomnia** – Authentication Bypass via Source Code Analysis
 - [ ] **SerialFlow** – Insecure deserialization vulnerability.
-- [ ] **Stylish** – JavaScript or template injection vulnerability.
 - [ ] **WS-Todo** – Business logic flaw.
 - [ ] **GrandMonty** – Known box with complex logic issues.
 - [ ] **baby sql** – SQL injection, particularly blind SQLi.
