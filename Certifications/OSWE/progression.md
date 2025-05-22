@@ -26,15 +26,15 @@ Follow my progression as I post writeups for each box I complete [here](/Writeup
 - [ ]  **Access control** 🔄
 - [ ]  **API testing**
 - [ ]  **Authentication** 🔄
-- [x]  **Command injection**
+- [x]  **Command injection** ✅
 - [ ]  **File upload vulnerabilities** 🔄
 - [ ]  **Information disclosure**
-- [ ]  **Server-side request forgery (SSRF)**
-- [x]  **SQL injection**
+- [ ]  **Server-side request forgery (SSRF)** 🔄
+- [x]  **SQL injection** ✅
 - [ ]  **XXE injection**
 - [ ]  NoSQL injection
 - [ ]  Race conditions
-- [x]  **Path traversal**
+- [x]  **Path traversal** ✅
 - [ ]  **Business logic vulnerabilities**
 - [ ]  _Web cache deception_
 ### Client-Side Topics
@@ -62,7 +62,7 @@ Bolded = Higher Importance
 Nothing = Medium Importance
 Italisized = Low Importance
 
-Checked Box = Finished
+Checked Box & ✅ = Finished
 🔄 = In Progress 
 ```
 
