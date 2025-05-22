@@ -23,9 +23,9 @@ Follow my progression as I post writeups for each box I complete [here](/Writeup
 
 ## PortSwigger Academy Topics
 ### Server-Side Topics
-- [ ] **Access control** 🔄
+- [ ]  **Access control** 🔄
 - [ ]  **API testing**
-- [ ]  **Authentication**
+- [ ]  **Authentication** 🔄
 - [x]  **Command injection**
 - [ ]  **File upload vulnerabilities** 🔄
 - [ ]  **Information disclosure**
@@ -49,7 +49,7 @@ Follow my progression as I post writeups for each box I complete [here](/Writeup
 - [ ]  HTTP Host header attacks
 - [ ]  HTTP request smuggling 🔄
 - [ ]  **Insecure deserialization**
-- [ ]  JWT attacks
+- [ ]  JWT attacks 🔄
 - [ ]  OAuth authentication
 - [ ]  **Prototype pollution**
 - [ ]  **Server-side template injection** 🔄
