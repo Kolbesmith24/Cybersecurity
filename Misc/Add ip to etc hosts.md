@@ -21,3 +21,4 @@ source ~/myenv/bin/activate
 3. Install dependencies
 ```
 pip install pycryptodome sympy
+```

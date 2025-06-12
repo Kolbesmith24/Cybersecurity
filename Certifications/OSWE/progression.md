@@ -78,7 +78,7 @@ Checked Box & ✅ = Finished
 - [ ] **JerryTok**: Exploiting Tomcat (web app misconfig, leads to RCE)
 - [ ] **POP Restaurant** – PHP Object Injection
 - [ ] **PDFy** – SSRF
-- [ ] **Insomnia** – Authentication Bypass via Source Code Analysis
+- [x] **Insomnia** – Authentication Bypass via Source Code Analysis
 - [ ] **Trapped Source** – Bug discovered through source code review.
 - [ ] **Templated** – Template injection vulnerability.
 - [ ] **baby auth** – Authentication bypass issue.

@@ -5,13 +5,17 @@ The basic syntax for running Gobuster to discover directories and files on a web
 ```
 gobuster dir -u https://mainwp.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x html,js,txt,php,db,json,log -q -s "200,301,302,500" -b ""
 ```
-
 ### Parameters:
 - **`-u`**: The URL or IP address of the target site or web application you are attacking.
 - **`-w`**: Path to the wordlist file that contains common directory and file names. For example, `/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt`.
 - **`-x`**: Specifies the file extensions to check for. Multiple extensions can be provided, separated by commas (e.g., `html`, `js`, `txt`, `php`, `db`, `json`, `log`).
 - **`-q`**: Runs the tool quietly, suppressing the banner and other noise, which makes the output cleaner and more concise.
 - **`-o`**: Specifies the output file where the results will be saved.
+
+## Fuzzing additional vhosts:
+```shell
+gobuster vhost -u http://inlanefreight.htb:PORT -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt -t 60 --append-domain
+```
 
 ---
 
