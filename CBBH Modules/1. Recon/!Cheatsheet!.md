@@ -17,20 +17,24 @@
 Create a canvas in obsidian for:
 - Each site (branching off to its different endpoints)
 - User information notes (store found information of other users such as usernames, emails, login credentials, etc.. Make sure to note which site it came from)
+
 ## Scan Ports and Services:
 ```shell
 nmap -v -sV -sC -T4 -p- MACHINE_IP
 ```
+
 ## Scan for Subdomains:
 ```shell
 ffuf -w subdomains-top1million-5000.txt:FUZZ -u http://FUZZ.trilocor.local
 ```
 - If another valid subdomain is found, scan for directories (Step 3) for all subdomains that are found!
+
 ## Scan for VHosts
 ```shell
 ffuf -w subdomains-top1million-20000.txt:FUZZ -u http://www.trilocor.local:8080/ -H 'Host: FUZZ.trilocor.local' -fs 0
 ```
 - If another valid subdomain is found, scan for directories (Step 3) for all subdomains that are found!
+
 ## Scan for Directories:
 ```shell
 ffuf -w directory-list-2.3-small.txt:FUZZ -u http://www.trilocor.local:8080/FUZZ -recursion -recursion-depth 3 -v
@@ -45,6 +49,7 @@ If `DIRECTORY.php` files are found, scan for `.php` directories as well:
 ```shell
 ffuf -w directory-list-2.3-small.txt:FUZZ -u http://www.trilocor.local:8080/FUZZ.php -recursion -recursion-depth 3 -v
 ```
+
 ## Scan for WordPress:
 Scan for WordPress and all plugins:
 ```shell
@@ -55,6 +60,7 @@ Enumerate all users:
 ```shell
 wpscan --url http://IP:PORT -e u
 ```
+
 ## Scan for WSDL:
 First check if it is listed under the `/wsdl` directory:
 ```html
@@ -77,16 +83,27 @@ ffuf -w burp-parameter-names.txt -u 'http://www.trilocor.local:8088/FUZZ.disco'
 ```shell
 ffuf -w burp-parameter-names.txt -u 'http://www.trilocor.local:8088/wsdl?FUZZ.disco'
 ```
+
 ## Scan for API functions:
 ```shell
 ffuf -w burp-parameter-names.txt -u 'http://www.trilocor.local:8088/?FUZZ=test_value' -fs 2457
 ```
+
 ### Scan for API endpoints:
 ```shell
 ffuf -w "/SecLists/Discovery/Web-Content/common-api-endpoints-mazen160.txt" -u 'http://<TARGET IP>:3000/api/FUZZ'
 ```
+
+
+
 ## Check site with Wappalyzer Add-On to find what it is running
+
+
 ## Use ZAProxy to scan the site and find all directories / crawling
+
+
+
+
 # After Initial Scans
 ## Visiting Each Endpoint
 1. Go to each and every directory in every subdomain and every VHost that you found, and visit each and every page and make another Note in Canvas for each endpoint
@@ -105,6 +122,9 @@ ffuf -w "/SecLists/Discovery/Web-Content/common-api-endpoints-mazen160.txt" -u '
 6. Take note of how the URL is displaying the page
 	- Is it retrieving files with `?language=`?
 	- What parameters is the url stating `?uid=1`?
+
+
+
 # REMEMBER
 Document EVERYTHING. Take extensive notes of every command and output you get, and every directory you find, as well as what tests you perform on each directory. 
 

