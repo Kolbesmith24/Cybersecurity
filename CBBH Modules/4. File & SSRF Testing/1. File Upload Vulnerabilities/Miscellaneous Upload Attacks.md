@@ -8,8 +8,10 @@ Many file types may allow us to introduce a `Stored XSS` vulnerability to the we
 The most basic example is when a web application allows us to upload `HTML` files. Although HTML files won't allow us to execute code (e.g., PHP), it would still be possible to implement JavaScript code within them to carry an XSS or CSRF attack on whoever visits the uploaded HTML page.
 
 If the target sees a link from a website they trust, and the website is vulnerable to uploading HTML documents, it may be possible to trick them into visiting the link and carry the attack on their machines.
+### If Metadata is displayed
+Another example of XSS attacks is web applications that display an image's metadata after its upload. 
 
-Another example of XSS attacks is web applications that display an image's metadata after its upload. For such web applications, we can include an XSS payload in one of the Metadata parameters that accept raw text, like the `Comment` or `Artist` parameters, as follows:
+For such web applications, we can include an XSS payload in one of the Metadata parameters that accept raw text, like the `Comment` or `Artist` parameters, as follows:
 ```bash
 exiftool -Comment=' "><img src=1 onerror=alert(window.origin)>' exiftool HTB.jpg
 ```
@@ -29,7 +31,11 @@ For this reason, we can modify their XML data to include an XSS payload. For exa
 ```
 - Once we upload the image to the web application, the XSS payload will be triggered whenever the image is displayed.
 ## XXE
-Similar attacks can be carried to lead to XXE exploitation. With SVG images, we can also include malicious XML data to leak the source code of the web application, and other internal documents within the server. The following example can be used for an SVG image that leaks the content of (`/etc/passwd`):
+Similar attacks can be carried to lead to XXE exploitation. 
+
+With SVG images, we can also include malicious XML data to leak the source code of the web application, and other internal documents within the server. 
+
+The following example can be used for an SVG image that leaks the content of (`/etc/passwd`):
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>

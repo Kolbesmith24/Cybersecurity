@@ -3,7 +3,9 @@
 
 XSLT (Extensible Stylesheet Language Transformations) server-side injection is a vulnerability that arises when an attacker can manipulate XSLT transformations performed on the server. 
 
-XSLT is a language used to transform XML documents into other formats, such as HTML, and is commonly employed in web applications to generate content dynamically. In the context of XSLT server-side injection, attackers exploit weaknesses in how XSLT transformations are handled, allowing them to inject and execute arbitrary code on the server.
+XSLT is a language used to transform XML documents into other formats, such as HTML, and is commonly employed in web applications to generate content dynamically. 
+
+In the context of XSLT server-side injection, attackers exploit weaknesses in how XSLT transformations are handled, allowing them to inject and execute arbitrary code on the server.
 ## eXtensible Stylesheet Language Transformation (XSLT)
 XSLT can be used to define a data format which is subsequently enriched with data from an originating XML document.
 
@@ -18,7 +20,7 @@ XSLT data is structured similarly to XML. However, it contains XSL elements with
 XSLT injection occurs whenever user input is inserted into XSL data before output generation by the XSLT processor. This enables an attacker to inject additional XSL elements into the XSL data, which the XSLT processor will execute during output generation.
 ## Exploiting XSLT Injection
 ### Identifying XSLT Injection
-If we find an input that is reflected on the page (such as our name), and we can Suppose the web application stores the module information in an XML document and displays the data using XSLT processing.
+If we find an input that is reflected on the page (such as our name), and we can suppose the web application stores the module information in an XML document and displays the data using XSLT processing.
 - In that case, it might suffer from XSLT injection if our name is inserted without sanitization before XSLT processing.
 
 To confirm that, let us try to inject a broken XML tag to try to provoke an error in the web application. We can achieve this by providing the username `<`:

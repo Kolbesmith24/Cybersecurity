@@ -78,7 +78,11 @@ For example, the `/etc/apache2/mods-enabled/php7.4.conf` for the `Apache2` web s
     SetHandler application/x-httpd-php
 </FilesMatch>
 ```
-The above configuration is how the web server determines which files to allow PHP code execution. It specifies a whitelist with a regex pattern that matches `.phar`, `.php`, and `.phtml`. However, this regex pattern can have the same mistake we saw earlier if we forget to end it with (`$`). In such cases, any file that contains the above extensions will be allowed PHP code execution, even if it does not end with the PHP extension.
+The above configuration is how the web server determines which files to allow PHP code execution. 
+
+It specifies a whitelist with a regex pattern that matches `.phar`, `.php`, and `.phtml`. However, this regex pattern can have the same mistake we saw earlier if we forget to end it with (`$`). 
+
+In such cases, any file that contains the above extensions will be allowed PHP code execution, even if it does not end with the PHP extension.
 - For example, the file name (`shell.php.jpg`) should pass the earlier whitelist test as it ends with (`.jpg`), and it would be able to execute PHP code due to the above misconfiguration, as it contains (`.php`) in its name.
 ## Character Injection
 We can inject several characters before or after the final extension to cause the web application to misinterpret the filename and execute the uploaded file as a PHP script.

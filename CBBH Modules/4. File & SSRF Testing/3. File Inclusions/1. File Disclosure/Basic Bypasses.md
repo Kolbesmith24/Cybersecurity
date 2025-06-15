@@ -45,7 +45,9 @@ Furthermore, PHP also used to remove trailing slashes and single dots in path na
 
 PHP, and Linux systems in general, also disregard multiple slashes in the path (e.g. `////etc/passwd` is the same as `/etc/passwd`).
 
-If we combine both of these PHP limitations together, we can create very long strings that evaluate to a correct path. Whenever we reach the 4096 character limitation, the appended extension (`.php`) would be truncated, and we would have a path without an appended extension.
+If we combine both of these PHP limitations together, we can create very long strings that evaluate to a correct path. 
+
+Whenever we reach the 4096 character limitation, the appended extension (`.php`) would be truncated, and we would have a path without an appended extension.
 > note that we would also need to `start the path with a non-existing directory` for this technique to work.
 ```
 ?language=non_existing_directory/../../../etc/passwd/./././././ REPEATED ~2048 times]

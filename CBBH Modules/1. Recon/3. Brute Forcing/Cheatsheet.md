@@ -18,7 +18,6 @@ hydra [-l LOGIN|-L FILE] [-p PASS|-P FILE] [-C FILE] -m MODULE [service://server
 |http-get/post|HTTP Web Services|Used to brute-force login credentials for HTTP web login forms using either GET or POST requests.|`hydra -l admin -P /path/to/password_list.txt 127.0.0.1 http-post-form "/login.php:user=^USER^&pass=^PASS^:F=incorrect"`|
 
 ### Medusa
-
 - Fast, massively parallel, modular login brute-forcer
 - Supports a wide array of services
 

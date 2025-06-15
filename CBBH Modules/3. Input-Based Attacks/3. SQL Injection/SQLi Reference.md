@@ -1,5 +1,5 @@
 ## Detect number of columns
-we need to find the number of columns selected by the server. There are two methods of detecting the number of columns:
+We need to find the number of columns selected by the server. There are two methods of detecting the number of columns:
 
 - Using `ORDER BY`
 - Using `UNION`
