@@ -4,6 +4,6 @@
 	- Do this by:
 		- Going through all topics and labs up to where Burp Pro is required
 		- Once done, get Burp Pro and go through all missed labs where Burp Pro is required
-3. CWEE
+3. CWEE?
 4. OSWE
 5. OSCP (if time allows before graduating)
